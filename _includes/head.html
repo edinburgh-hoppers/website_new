@@ -1,2 +1,17 @@
-<!-- Add stylesheets, meta data, etc. -->
-<link>
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+{% if page.title == "Index" %}
+<title>Edinburgh Hoppers</title>
+{% else %}
+<title>{{ page.title }} | Edinburgh Hoppers</title>
+{% endif %}
+
+<link rel="icon" href="{{ site.baseurl }}/assets/img/hoppers-logo-nav.png" type="image/png">
+
+<!-- bootstrap -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+  integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.scss">
