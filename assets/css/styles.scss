@@ -20,7 +20,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-card {
+.card {
   background-color: $hoppers-gray-light;
 }
 
@@ -143,3 +143,8 @@ a {
 //   height: 100%;
 //   position: fixed;
 // }
+
+img{
+  width: 100px;
+  height: 100px;
+}
