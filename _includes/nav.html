@@ -1,37 +1,15 @@
-<nav class="nav navbar nav-pills shadow-sm navbar-expand-sm navbar-light bg-light mt-3 mb-4 mt-sm-4 mb-sm-5 sticky-top">
+<div id="navbar" class="overlay">
 
-  <!--  toggle buttons (only on small screens)  -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
-    aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <!--  main navbar content  -->
-  <div class="collapse navbar-collapse justify-content-center align-items-center text-center" id="navbar">
-    <ul class="nav navbar-nav row">
-
-      <!-- home button (only on large screens) -->
-      <li class="navbar-brand mx-1 p-0 d-none d-sm-block">
-        <a class="nav-link" href="{{ site.baseurl }}/" style="height: 0">
-          <img src="{{ site.baseurl }}/assets/images/logos/hoppers-logo-nav.png" width="100"
-            class="navbar-logo rounded-circle clickable shadow-sm">
-        </a>
-      </li>
-
-      {% for item in site.data.nav %}
-      <li class="nav-item rounded mx-1">
-        <a class="nav-link {% if item.text == 'AGM' or item.text == 'Scholarship'%} highlight {% endif %}"
-          href="{{ site.baseurl }}/{{ item.href }}">{{ item.text }}</a>
-      </li>
-      {% endfor %}
-    </ul>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Meet the team</a>
+    <a href="#">Sponsorship</a>
+    <a href="#">Events</a>
   </div>
+</div>
 
-  <!-- home button (only on small screens) -->
-  <a href="{{ site.baseurl }}/" style="height: 0">
-    <img src="{{ site.baseurl }}/assets/images/logos/hoppers-logo-nav.png" width="96"
-      class="navbar-logo-sm rounded-circle clickable shadow-sm d-sm-none m-0">
-  </a>
 
-</nav>
-<!-- nav end -->
+<span onclick="openNav()" class="material-icons md-36">
+  menu
+  </span>
