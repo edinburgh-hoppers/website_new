@@ -1,1 +1,257 @@
-/*something to make github recognise this folder*/
+---
+---
+
+$jwow-ease: 1.0s cubic-bezier(0, 1, 0.5, 1);
+$jwow-ease-out: 1.5s cubic-bezier(0, 0, 0, 1);
+$hoppers-green: #3da08c;
+$hoppers-dark-green: #109864;
+$hoppers-blue: #5bc3c8;
+$hoppers-gray-light: #f8f9fa;
+$hoppers-gray: #eee;
+$hoppers-black: #444; /* Pure black text on white backgrounds can cause eye strain when users read the text over an extended period. */
+$hoppers-gradient: linear-gradient(90deg, $hoppers-blue, $hoppers-dark-green);
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,900&display=swap');
+
+/* GENERAL PROPERTIES */
+
+body {
+  background-color: $hoppers-gray;
+  font-family: 'Roboto', sans-serif;
+}
+
+section {
+  margin: 0% 10%;
+}
+
+.card {
+  background-color: $hoppers-gray-light;
+}
+
+h1, h3 {
+  color: $hoppers-green;
+}
+
+h2, p {
+  color: $hoppers-black;
+}
+
+a { 
+  color: $hoppers-green;
+  font-weight: bold;
+
+  &:hover {
+  	color: $hoppers-green;
+  }
+}
+
+.nodecor {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.center-horizentally{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.shadow {
+  -webkit-box-shadow: 5px 5px 4px 2px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    5px 5px 4px 2px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         5px 5px 4px 2px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+
+/* NAVIGATION BAR */
+
+.navbar-logo {
+  margin: -50%;
+  z-index: 1;
+
+  /* used on small screens */
+  &-sm {
+    position: absolute;
+    right: 20px;
+    top: -20px;
+    z-index: 1;
+  }
+}
+
+.nav-item {
+  transition: background $jwow-ease-out;
+  &:hover {
+    transition: background $jwow-ease;
+    background-color: $hoppers-gray;
+  }
+}
+
+.nav-link {
+  font-weight: normal;
+}
+
+#nav-cover{
+  background-color: white;
+}
+
+
+/* BUTTONS */
+
+.button {
+  color: #ffffff !important;
+  text-align: center;
+
+  // background-color: $hoppers-green;
+  background: $hoppers-gradient;
+  padding: .5rem!important;
+  // border: 1.5px $hoppers-green solid;
+  border-radius: 0.25rem;
+
+  display: inline-block;
+  min-width: 150px;
+  width: 100%;
+
+  &:hover {
+    text-decoration: none;
+  };
+}
+
+
+
+.clickable {
+  transition: transform $jwow-ease-out;
+  
+  &:hover {
+    transition: transform $jwow-ease;
+    transform: scale(1.05);
+  }
+  
+  &:active {
+    transform: scale(1.07);
+  }
+}
+
+
+/* HOMEPAGE */
+
+#hero-section {
+  
+}
+
+#hero-section img {
+  height: 500px;
+  width: 500px;
+}
+
+.home-section {
+  display: flex;
+}
+
+.home-section img {
+  transform: scale(0.5);
+}
+
+// #particles-js {
+//   height: 100%;
+//   position: fixed;
+// }
+
+img{
+  width: 100px;
+  height: 100px;
+}
+
+
+
+/*NAV - took from W3schools mainly*/
+
+
+.overlay { 
+  height: 100%;
+  width: 0;
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.9); 
+  overflow-x: hidden; 
+  transition: 0.2s; 
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%; 
+  text-align: center; 
+  margin-top: 30px; 
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block; 
+  transition: 0.3s color; 
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+
+/*
+Contact us
+*/
+
+.contact-us{
+  width: 100%;
+  height: max-content;
+  background-color: $hoppers-green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+
+  h3{
+    color: white;
+    font-size: 2vmax;
+  }
+
+  img{
+    width: 10vw;
+    height: 10vw;
+    margin: 3vmax 1vmax;
+    transition: transform 0.2s ease-out;
+
+    &:hover{
+      transform: scale(1.05);
+      transition: transform 0.2s ease-out;
+    }
+  }
+
+  a{
+    color:white;
+  }
+}
