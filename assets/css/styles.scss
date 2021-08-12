@@ -68,34 +68,35 @@ a {
 
 /* NAVIGATION BAR */
 
-.navbar-logo {
-  margin: -50%;
-  z-index: 1;
 
-  /* used on small screens */
-  &-sm {
-    position: absolute;
-    right: 20px;
-    top: -20px;
-    z-index: 1;
-  }
-}
+// .navbar-logo {
+//   margin: -50%;
+//   z-index: 1;
 
-.nav-item {
-  transition: background $jwow-ease-out;
-  &:hover {
-    transition: background $jwow-ease;
-    background-color: $hoppers-gray;
-  }
-}
+//   /* used on small screens */
+//   &-sm {
+//     position: absolute;
+//     right: 20px;
+//     top: -20px;
+//     z-index: 1;
+//   }
+// }
 
-.nav-link {
-  font-weight: normal;
-}
+// .nav-item {
+//   transition: background $jwow-ease-out;
+//   &:hover {
+//     transition: background $jwow-ease;
+//     background-color: $hoppers-gray;
+//   }
+// }
 
-#nav-cover{
-  background-color: white;
-}
+// .nav-link {
+//   font-weight: normal;
+// }
+
+// #nav-cover{
+//   background-color: white;
+// }
 
 
 /* BUTTONS */
@@ -116,7 +117,7 @@ a {
 
   &:hover {
     text-decoration: none;
-  };
+  }
 }
 
 
@@ -216,5 +217,53 @@ img{
     font-size: 40px;
     top: 15px;
     right: 35px;
+  }
+}
+
+.nav-icon{
+  font-size: 30px;
+  position: sticky; 
+  left: 10px;
+  top: 10px;
+}
+
+
+/*
+Contact us
+*/
+
+.contact-us{
+  width: 100%;
+  height: max-content;
+  background-image: url('../images/hoppers-contact-background.png');
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+
+  h3{
+    color: $hoppers-black;
+    font-size: 1.2vmax;
+  }
+
+  img{
+    width: 7vw;
+    height: 7vw;
+    margin: 1vmax 0.5vmax;
+    transition: transform 0.2s ease-out;
+    background-color: $hoppers-black;
+    padding: 10px;
+    border-radius: 50%;
+
+    &:hover{
+      transform: scale(1.05);
+      transition: transform 0.2s ease-out;
+    }
+  }
+
+  a{
+    color: $hoppers-black;
   }
 }
