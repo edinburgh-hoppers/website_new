@@ -1,0 +1,15 @@
+- name: Sarah
+  role: Head of Media
+  link: sarah.jpg
+
+- name: Prapti
+  role: Media Coordinator
+  link: prapti.jpg
+
+- name: Priya
+  role: Secretary
+  link: priya.jpg
+
+- name: Aparna
+  role: Head of Tech
+  link: aparna.jpg

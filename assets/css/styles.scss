@@ -13,12 +13,15 @@ $hoppers-gradient: linear-gradient(90deg, $hoppers-blue, $hoppers-dark-green);
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;1,300&display=swap');
 
 /* GENERAL PROPERTIES */
 
 body {
-  background-color: $hoppers-gray;
-  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='32' viewBox='0 0 16 32'%3E%3Cg fill='%233da08c' fill-opacity='0.14'%3E%3Cpath fill-rule='evenodd' d='M0 24h4v2H0v-2zm0 4h6v2H0v-2zm0-8h2v2H0v-2zM0 0h4v2H0V0zm0 4h2v2H0V4zm16 20h-6v2h6v-2zm0 4H8v2h8v-2zm0-8h-4v2h4v-2zm0-20h-6v2h6V0zm0 4h-4v2h4V4zm-2 12h2v2h-2v-2zm0-8h2v2h-2V8zM2 8h10v2H2V8zm0 8h10v2H2v-2zm-2-4h14v2H0v-2zm4-8h6v2H4V4zm0 16h6v2H4v-2zM6 0h2v2H6V0zm0 24h2v2H6v-2z'/%3E%3C/g%3E%3C/svg%3E");
+  font-family: 'Titillium Web', sans-serif;
+  margin: 0;
 }
 
 section {
@@ -166,6 +169,10 @@ img{
 }
 
 
+main{
+  display: grid;
+  place-content: center;
+}
 
 /*NAV - took from W3schools mainly*/
 
@@ -211,8 +218,8 @@ img{
   font-size: 60px;
 }
 
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
+@media screen and (max-width: 400px){
+  .overlay a {font-size: 30px}
   .overlay .closebtn {
     font-size: 40px;
     top: 15px;
@@ -242,15 +249,16 @@ Contact us
   justify-content: center;
   align-items: center;
   padding: 50px;
+  margin-top: 100px;
 
   h3{
     color: $hoppers-black;
-    font-size: 1.2vmax;
+    font-size: 14pt;
   }
 
   img{
-    width: 7vw;
-    height: 7vw;
+    width: 50px;
+    height: 50px;
     margin: 1vmax 0.5vmax;
     transition: transform 0.2s ease-out;
     background-color: $hoppers-black;
@@ -265,5 +273,80 @@ Contact us
 
   a{
     color: $hoppers-black;
+  }
+}
+
+
+.team{
+  display: grid;
+  justify-content: center;
+  width: 90vw;
+  grid-template-rows: max-content max-content;
+  grid-template-areas: 'title' '.';
+
+  .title{
+    grid-area: title;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    h1{
+      justify-self: end;
+      align-self: center;
+      text-align: right;
+      margin: 0;
+      margin-right: 20px;
+    }
+    p{
+      justify-self: start;
+      align-self: center;
+      margin: 0;
+    }
+  }
+
+  .member-wrapper{
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 300px;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .member-card{
+    display:grid;
+    height: 200px;
+    width: 200px;
+    place-content:center;
+    overflow: hidden;
+    background-size: cover;
+  }
+
+  .overlay{
+    background: rgba($hoppers-black,0.5);
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top:200px;
+  }
+
+  .member-card:hover .overlay{
+    top: 0px;
+    transition: top 0.4s;
+  }
+
+  @media(max-width: 1030px){
+    .member-wrapper{
+      grid-template-columns: 1fr 1fr;
+      grid-auto-rows: 200px;
+    }
+
+    .member-card{
+      width: 150px;
+      height: 150px;
+      
+    }
+    p{
+      font-size: 0.7em;
+    }
   }
 }
