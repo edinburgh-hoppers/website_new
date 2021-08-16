@@ -1,15 +1,49 @@
-- name: Sarah
-  role: Head of Media
-  link: sarah.jpg
+- name: Sraddheya Gurung
+  role: President
+  emoji: 
+  link: sraddheya.jpeg
 
-- name: Prapti
-  role: Media Coordinator
-  link: prapti.jpg
-
-- name: Priya
+- name: Priya Sadh
   role: Secretary
+  emoji:
   link: priya.jpg
 
-- name: Aparna
+- name: Regan Hwang
+  role: Treasurer
+  emoji: 
+  link: regan.jpg
+
+- name: Aparna Rajeev
   role: Head of Tech
+  emoji:
   link: aparna.jpg
+
+- name: Sarah Kayser
+  role: Head of Media
+  emoji: 
+  link: sarah.jpg
+
+- name: Ioana Buzduga
+  role: Head of Sponsorship
+  emoji:
+  link: ioana.jpeg
+
+- name: Laura O'Sullivan
+  role: Tech Coordinator
+  emoji:
+  link: laura_o.jpeg
+
+- name: Jahnvi Jaiman
+  role: Tech Coordinator
+  emoji:
+  link: jahnvi.jpeg
+
+- name: Prapti Maitra
+  role: Media Coordinator
+  emoji:
+  link: prapti.jpg
+
+- name: Laura Ritter
+  role: Media Coordinator
+  emoji:
+  link: laura_r.jpeg
