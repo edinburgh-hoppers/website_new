@@ -164,6 +164,8 @@ _________________________________________________________________
 // }
 
 
+
+
 /*  HERO SECTION  */
 
 #hero-section {
@@ -186,17 +188,16 @@ _________________________________________________________________
     height: auto;
     max-width: 600px;
     padding: 0;
-    margin: 0 100px;
+    margin: 0 40px;
   }
 
   .intro {
-    width: 100%;
+    margin: 0 20px;
     p {
       max-width: 50ch;
     }
   }
 }
-
 
 #particles-js {
   height: 85vh;    // change later when nav bar is added
@@ -206,6 +207,24 @@ _________________________________________________________________
   left: 0;
   z-index: -100;
 }
+
+
+@media screen and (max-width:1200px) {
+  .content img {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .home-section {
+    flex-direction: column;
+  }
+  .content {
+    flex-direction: column;
+  }
+}
+
+
 
 
 
