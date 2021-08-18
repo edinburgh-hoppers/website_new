@@ -158,7 +158,7 @@ _________________________________________________________________
 
 .home-section {
   // display: grid;
-  margin: 5% 10%;
+  margin: 10% 10%;
   // grid-template-columns: 1fr 1fr;
   // grid-template-areas: 
   //   "text image";
@@ -168,6 +168,9 @@ _________________________________________________________________
 
 .home-text {
   margin: auto;
+  h2 {
+    color: $hoppers-green;
+  }
 }
 
 .home-image-wrapper {
@@ -182,7 +185,10 @@ _________________________________________________________________
 #events-section {
   background: linear-gradient(45deg, $hoppers-gray-light, $hoppers-light-green);
   margin: 0;
+  text-align: end;
 }
+
+
 
 
 
@@ -200,7 +206,7 @@ _________________________________________________________________
 .content {
   width: 100%;
   display: flex;
-  margin: 0 60px;
+  margin: 0 10%;
   align-items: center;
   justify-content: center;
 
@@ -209,7 +215,7 @@ _________________________________________________________________
     // width: 600px;
     width: 100%;
     height: auto;
-    max-width: 600px;
+    max-width: 550px;
     padding: 0;
     margin: 0 40px;
   }
@@ -244,9 +250,31 @@ _________________________________________________________________
 @media screen and (max-width:1000px) {
   .home-section {
     flex-direction: column;
+    text-align: center;
   }
   .content {
     flex-direction: column;
+    text-align: center;
+  }
+
+  .home-image-wrapper {
+    margin: 15px 0;
+  }
+
+  .home-text {
+    margin: 15px 0;
+  }
+
+  .reverse-mobile {
+    .home-image-wrapper {
+      order: 1;
+    }
+    .home-gap {
+      order: 2;
+    }
+    .home-text {
+      order: 3;
+    }
   }
 }
 
