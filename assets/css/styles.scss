@@ -164,6 +164,7 @@ _________________________________________________________________
   //   "text image";
   // align-items: center;
   // justify-content: center;
+  
 }
 
 .home-text {
@@ -183,8 +184,12 @@ _________________________________________________________________
   height: auto;
 }
 
-#events-section {
+.section-bg {
   background: linear-gradient(45deg, $hoppers-gray-light, $hoppers-light-green);
+}
+
+#events-section {
+  background: none;
   margin: 0;
   text-align: end;
 }
