@@ -1,15 +1,17 @@
 ---
 layout: default
 ---
-{%  assign team = site.data.team %}
+{% assign team = site.data.team %}
 <div class="team">
     <div class="title">
         <h1>Meet the team</h1>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
         </p>
     </div>
     <div class="member-wrapper">
-    {% for member in team %}
+        {% for member in team %}
         <div class="member-card" style="background-image: url({{site.baseurl}}/assets/images/team/{{ member.link }})">
             <div class="overlay">
                 <h4>{{ member.name }}</h4>
@@ -17,5 +19,5 @@ layout: default
             </div>
         </div>
         {% endfor %}
-    </div> 
+    </div>
 </div>

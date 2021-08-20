@@ -157,14 +157,7 @@ _________________________________________________________________
 */
 
 .home-section {
-  // display: grid;
   margin: 10% 10%;
-  // grid-template-columns: 1fr 1fr;
-  // grid-template-areas: 
-  //   "text image";
-  // align-items: center;
-  // justify-content: center;
-  
 }
 
 .home-text {
@@ -201,6 +194,23 @@ _________________________________________________________________
   }
 }
 
+.splide-wrapper {
+  height: 100px;
+  //width: 800px;
+  margin: 10%;
+}
+
+// .splide {
+//   width: 70vh;
+// }
+
+.splide-image {
+  max-height: 100px;
+  // height: auto;
+  // width: 100%;
+  // margin: 20px;
+}
+
 
 
 
@@ -224,8 +234,6 @@ _________________________________________________________________
   justify-content: center;
 
   img {
-    // height: 600px;
-    // width: 600px;
     width: 100%;
     height: auto;
     max-width: 550px;
