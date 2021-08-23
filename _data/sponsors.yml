@@ -1,0 +1,19 @@
+- name: Google
+  logo: google.png
+  website: https://www.google.com
+
+- name: School of Informatics
+  logo: inf.png
+  website: https://www.ed.ac.uk/informatics
+
+- name: Modulr
+  logo: modulr.png
+  website: https://www.modulrfinance.com/
+
+- name: Amazon
+  logo: amazon.png
+  website: https://www.amazon.com
+
+- name: Hubspot
+  logo: HubSpot.png
+  website: https://www.hubspot.com/

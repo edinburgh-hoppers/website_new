@@ -38,7 +38,7 @@ collections:
     output: true
     permalink: /:path
 
-
+port: 3500
 
 # Exclude from processing.
 # The following items will not be processed, by default.
