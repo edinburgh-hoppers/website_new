@@ -94,7 +94,20 @@ layout: default
           sponsorships</a>
       </div>
     </div>
-    <div class="splide-wrapper">
+    <div class="carousel-wrapper">
+      <div class="slick">
+        {% for company in sponsors %}
+        <div class="slide">
+          <div class="carousel-image-wrapper">
+            <a href="{{ company.website }}" target="_blank">
+              <img class="carousel-image" src="{{site.baseurl}}/assets/images/sponsor-logos/{{ company.logo }}">
+            </a>
+          </div>
+          <h4>{{ company.name }}</h4>
+        </div>
+        {% endfor %}
+      </div>
+
       <!-- <div class="splide">
         <div class="splide__track">
           <ul class="splide__list">
@@ -109,6 +122,8 @@ layout: default
           </ul>
         </div>
       </div> -->
+
+
     </div>
   </div>
 </section>
