@@ -48,7 +48,7 @@ h2, p {
   color: $hoppers-black;
 }
 
-a {
+a { 
   color: $hoppers-green;
   font-weight: bold;
 
@@ -137,12 +137,12 @@ a {
 
 .clickable {
   transition: transform $jwow-ease-out;
-
+  
   &:hover {
     transition: transform $jwow-ease;
     transform: scale(1.05);
   }
-
+  
   &:active {
     transform: scale(1.07);
   }
@@ -154,6 +154,7 @@ _________________________________________________________________
 HOMEPAGE
 _________________________________________________________________
 */
+
 
 .home-section {
   margin: 10% 10%;
@@ -350,11 +351,11 @@ _________________________________________________________________
 */
 
 
-.overlay {
+.overlay { 
   height: 100%;
   width: 0;
-  position: fixed;
-  z-index: 1;
+  position: fixed; 
+  z-index: 1; 
   left: 0;
   top: 0;
   background-color: rgba(0,0,0, 0.9); 
@@ -365,9 +366,9 @@ _________________________________________________________________
 .overlay-content {
   position: relative;
   top: 25%;
-  width: 100%;
-  text-align: center;
-  margin-top: 30px;
+  width: 100%; 
+  text-align: center; 
+  margin-top: 30px; 
 }
 
 .overlay a {
@@ -375,8 +376,8 @@ _________________________________________________________________
   text-decoration: none;
   font-size: 36px;
   color: #818181;
-  display: block;
-  transition: 0.3s color;
+  display: block; 
+  transition: 0.3s color; 
 }
 
 .overlay a:hover, .overlay a:focus {
@@ -563,36 +564,4 @@ _________________________________________________________________
       font-size: 0.8em;
     }
   }
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  grid-gap:50px;
-  padding: 70px;
-}
-
-.grid-header{
-  grid-column: 1/-1;
-  padding: 50px;
-  text-align: center;
-}
-
-.grid-big-events {
-  padding: 50px;
-}
-
-.grid-big-events img{
-  height: 250px;
-  width: 250px;
-}
-
-.grid-small-events {
-  padding: 20px 70px;
-}
-
-.grid-small-events img{
-  height: 200px;
-  width: 200px;
 }
