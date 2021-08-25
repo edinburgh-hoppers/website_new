@@ -19,7 +19,7 @@ $hoppers-gradient: linear-gradient(90deg, $hoppers-blue, $hoppers-dark-green);
 /* GENERAL PROPERTIES */
 
 body {
-  background-color: #f8f9fa;
+  background-color: $hoppers-gray-light;
   font-family: 'Titillium Web', sans-serif;
   margin: 0;
   font-size: 18px;
@@ -30,7 +30,7 @@ body {
 main {
   display: grid;
   place-content: center;
-  
+  //margin-bottom: 50px;
 }
 
 // section {
@@ -157,6 +157,7 @@ _________________________________________________________________
 
 .index-body {
   background: none;
+  background-color: $hoppers-gray-light;
 }
 
 
@@ -425,7 +426,7 @@ Contact us
 _________________________________________________________________
 */
 
-.contact-us{
+footer {
   align-self: end;
   width: 100%;
   height: max-content;
