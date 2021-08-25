@@ -700,6 +700,10 @@ _________________________________________________________________
     p {
       max-width: 70ch;
       margin: auto;
+      
+      a {
+        font-weight: bold;
+      }
     }
   }
 
@@ -724,6 +728,7 @@ _________________________________________________________________
       font-size: 16px;
     }
   }
+
   tbody {
     tr:nth-child(odd){background-color: $hoppers-gray-light;}
     //tr:nth-child(even){background-color: #d8f0eb;}
