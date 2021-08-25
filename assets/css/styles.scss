@@ -683,15 +683,24 @@ _________________________________________________________________
 }
 
 .tiers {
-  width: 90vw;
 
+  width: 90vw;
+  text-align: center;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
   #tiers-intro {
     text-align: center;
-    padding: 5vw 9vw 2vw 9vw;
-    margin-bottom: 5vh;
+    //padding: 5vw 9vw 2vw 9vw;
+    margin: 5%;
     // @media(max-width: 700px){
     //   font-size: 13px;
     // }
+    p {
+      max-width: 70ch;
+      margin: auto;
+    }
   }
 
   td {
@@ -712,14 +721,16 @@ _________________________________________________________________
 
   table{
     @media(max-width: 700px){
-      font-size: 14px;
+      font-size: 16px;
     }
   }
-
-  tr:nth-child(odd){background-color: $hoppers-gray-light;}
-  //tr:nth-child(even){background-color: $hoppers-gray;}
-
-  tr:hover {background-color: $hoppers-light-green;}
+  tbody {
+    tr:nth-child(odd){background-color: $hoppers-gray-light;}
+    //tr:nth-child(even){background-color: #d8f0eb;}
+  
+    tr:hover {background-color: $hoppers-light-green;}
+  }
+  
 
   th {
     background-color: $hoppers-green;
@@ -728,12 +739,14 @@ _________________________________________________________________
     font-size: 105%;
   }
 
-  th:first-child{
-    background-color: white
+  .empty-cell{
+    background: none;
+    background-color:rgba(0, 0, 0, 0);
   }
 
   a {
-    margin-bottom: 20px;
-    margin-top: 40px;
+    margin: 10px;
+    // margin-bottom: 20px;
+    // margin-top: 40px;
   }
 }
