@@ -681,3 +681,59 @@ _________________________________________________________________
     max-height: 60px;
   }
 }
+
+.tiers {
+  width: 90vw;
+
+  #tiers-intro {
+    text-align: center;
+    padding: 5vw 9vw 2vw 9vw;
+    margin-bottom: 5vh;
+    // @media(max-width: 700px){
+    //   font-size: 13px;
+    // }
+  }
+
+  td {
+    color: $hoppers-black;
+    text-align: center;
+    padding: 8px;
+  }
+
+  td:first-child{
+    text-align: left;
+    font-size: 105%;
+  }
+
+  img {
+    height: 25px;
+    width: 25px;
+  }
+
+  table{
+    @media(max-width: 700px){
+      font-size: 14px;
+    }
+  }
+
+  tr:nth-child(odd){background-color: $hoppers-gray-light;}
+  //tr:nth-child(even){background-color: $hoppers-gray;}
+
+  tr:hover {background-color: $hoppers-light-green;}
+
+  th {
+    background-color: $hoppers-green;
+    color: $hoppers-gray-light;
+    padding: 5px;
+    font-size: 105%;
+  }
+
+  th:first-child{
+    background-color: white
+  }
+
+  a {
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+}
