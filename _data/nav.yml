@@ -1,11 +1,11 @@
+- text: "About Us"
+  href: about-us
+
 - text: "Events"
   href: events
  
 - text: "Team"
   href: teams
-
-- text: "About Us"
-  href: about-us
 
 - text: "Sponsorships"
   href: sponsorships

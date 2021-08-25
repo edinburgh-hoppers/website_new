@@ -1,32 +1,49 @@
 ---
 layout: default
 ---
+<div class="page">
+  <section class="title-section">
+    <h1>About Us</h1>
+    <!-- <div class="title-right"> -->
+    <p>As the official society for Gender Minorities in Informatics at the University of Edinburgh, our goal is to
+      cultivate an open community with the aim to provide a supportive and inclusive society where people are
+      comfortable and build both technical and networking skills to thrive in the tech environment.
+    </p>
+    <div class="col-12 center-horizentally">
+      <a class="col-12 col-md-5 col-lg-4 button clickable"
+        href="{{ 'assets/pdf/constitution-hoppers.pdf' | relative_url }}" target="_blank">Download our
+        Constitution</a>
+    </div>
+    <!-- </div> -->
+  </section>
 
 
-{%- for voice in site.data.aboutUs -%}
-<section class="aboutUsVoices">
-  <div class="float-left col-12 col-lg-4 col-xl-3 d-flex flex-column mb-3 mb-lg-2">
-    <div class="col-6 col-md-4 col-lg-8 mx-auto">
-      <img class="w-100 d-block rounded-circle mb-2" src="
+  {%- for voice in site.data.aboutUs -%}
+  <section class="aboutUsVoices">
+    <div class="float-left col-12 col-lg-4 col-xl-3 d-flex flex-column mb-3 mb-lg-2">
+      <div class="col-6 col-md-4 col-lg-8 mx-auto">
+        <img class="w-100 d-block rounded-circle mb-2" src="
           {%- if voice.img -%}
             {{ '/assets/images/aboutUsVoices/' | append: voice.img | relative_url }}
           {%- endif -%}">
+      </div>
+
+      <span style="font-weight: bold" class="text-center">
+        <h6 class="team-member">{{ voice.name }}, {{ voice.year }}</h6>
+        <h6 class="team-member-role">{{ voice.description }}</h6>
+      </span>
     </div>
 
-    <span style="font-weight: bold" class="text-center">
-      <h6 class="team-member">{{ voice.name }}, {{ voice.year }}</h6>
-      <h6 class="team-member-role">{{ voice.description }}</h6>
-    </span>
-  </div>
+    {% include aboutUsVoices/{{ voice.includeTextFrom }} %}
 
-  {% include aboutUsVoices/{{ voice.includeTextFrom }} %}
+  </section>
 
-</section>
+  <hr class="mb-4 mt-4">
+  {%- endfor -%}
 
-<hr class="mb-4 mt-4">
-{%- endfor -%}
+  <!-- <div class="col-12 center-horizentally">
+    <a class="col-12 col-md-5 col-lg-4 button clickable"
+      href="{{ 'assets/pdf/constitution-hoppers.pdf' | relative_url }}" target="_blank">Download our Constitution</a>
+  </div> -->
 
-<div class="col-12 center-horizentally">
-  <a class="col-12 col-md-5 col-lg-4 button clickable" href="{{ 'assets/pdf/constitution-hoppers.pdf' | relative_url }}"
-    target="_blank">Download our Constitution</a>
 </div>

@@ -78,6 +78,40 @@ a {
 }
 
 
+.page {
+  display: grid;
+  justify-content: center;
+  width: 90vw;
+  grid-template-rows: max-content max-content;
+  grid-template-areas: 'title' '.';
+
+  .title-section {
+    grid-area: title;
+    display: grid;
+    //grid-template-columns: 1fr 2fr;
+    padding-bottom: 10px;
+  
+    h1{
+      justify-self: center;
+      align-self: center;
+      text-align: center;
+      margin: 0;
+      //margin-right: 20px;
+      margin: 20px;
+    }
+    
+    p{
+      text-align: center;
+      justify-self: center;
+      align-self: center;
+      max-width: 70ch;
+      //margin: 0;
+    }
+  }
+}
+
+
+
 /* NAVIGATION BAR */
 
 .navbar-logo {
@@ -422,7 +456,7 @@ _________________________________________________________________
 
 /*
 _________________________________________________________________
-Contact us
+FOOTER
 _________________________________________________________________
 */
 
@@ -471,7 +505,8 @@ footer {
   }
 
   .outer-wrapper{
-    background-color: rgba(#fff,0.6);
+    background-color: rgba($hoppers-gray-light,0.6);
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     place-content: center;
@@ -600,8 +635,12 @@ _________________________________________________________________
 */
 
 .aboutUsVoices {
-  margin: 0.7rem 5%;
+  margin-top: 1rem;
+  background: $hoppers-gray-light;
+  padding: 2%;
+  border-radius: 30px;
+
+  p {
+    margin-bottom: 0.7rem;
+  }
 }
-// .aboutUsVoices p {
-//   margin-bottom: 0.7rem;
-// }
