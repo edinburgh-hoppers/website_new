@@ -7,13 +7,13 @@
 - text: "Team"
   href: teams
 
-- text: "Sponsorships"
-  href: sponsorships
+- text: "Sponsors"
+  href: sponsors
 
 # - text: "Opportunities"
 #   href: opportunities
     
-# - text: "Contact Us"
-#   href: contact
+- text: "Contact Us"
+  href: contact
 
 
