@@ -26,3 +26,20 @@ $(document).ready(() => {
     ]
   });
 })
+
+function openNav() {
+  console.log(window.innerWidth)
+  if (window.innerWidth > 500) {
+    console.log("big window")
+    document.getElementById("navbar").style.width = "50%";
+  }
+  else {
+    console.log("small window")
+    document.getElementById("navbar").style.width = "80%";
+  }
+
+}
+
+function closeNav() {
+  document.getElementById("navbar").style.width = "0%";
+}
