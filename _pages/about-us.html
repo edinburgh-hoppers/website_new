@@ -1,3 +1,32 @@
 ---
 layout: default
 ---
+
+
+{%- for voice in site.data.aboutUs -%}
+<section class="aboutUsVoices">
+  <div class="float-left col-12 col-lg-4 col-xl-3 d-flex flex-column mb-3 mb-lg-2">
+    <div class="col-6 col-md-4 col-lg-8 mx-auto">
+      <img class="w-100 d-block rounded-circle mb-2" src="
+          {%- if voice.img -%}
+            {{ '/assets/images/aboutUsVoices/' | append: voice.img | relative_url }}
+          {%- endif -%}">
+    </div>
+
+    <span style="font-weight: bold" class="text-center">
+      <h6 class="team-member">{{ voice.name }}, {{ voice.year }}</h6>
+      <h6 class="team-member-role">{{ voice.description }}</h6>
+    </span>
+  </div>
+
+  {% include aboutUsVoices/{{ voice.includeTextFrom }} %}
+
+</section>
+
+<hr class="mb-4 mt-4">
+{%- endfor -%}
+
+<div class="col-12 center-horizentally">
+  <a class="col-12 col-md-5 col-lg-4 button clickable" href="{{ 'assets/pdf/constitution-hoppers.pdf' | relative_url }}"
+    target="_blank">Download our Constitution</a>
+</div>
