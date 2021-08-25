@@ -3,8 +3,11 @@
   year: "2020"
   includeTextFrom: jane.html
   img: jane.jpg
+  tag: jane
+  
 - name: Gosia Borowiec
   description: Hoppers President 2019/20
   year: "2020"
   includeTextFrom: gosia.html
   img: gosia.jpeg
+  tag: gosia
