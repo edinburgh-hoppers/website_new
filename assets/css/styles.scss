@@ -45,7 +45,7 @@ h1, h3 {
   color: $hoppers-green;
 }
 
-h2, p {
+h2, h4, h5, h6, p {
   color: $hoppers-black;
 }
 
@@ -645,3 +645,39 @@ _________________________________________________________________
   }
 }
 
+/*
+_________________________________________________________________
+SPONSORS
+_________________________________________________________________
+*/
+
+.sponsors-grid {
+  // display: grid;
+  // grid-template-columns: repeat(4, 1fr);
+  // column-gap: 2%;
+  // row-gap: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2%;
+  width: 90vw;
+
+  .sponsor {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .sponsor-image-wrapper {
+    margin: 10px;
+    transition: transform $jwow-ease;
+
+    &:hover {
+      transform: scale(1.1);
+      transition: transform $jwow-ease-out;
+    }
+  }
+
+  .sponsor-image {
+    max-height: 60px;
+  }
+}

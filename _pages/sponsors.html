@@ -1,3 +1,20 @@
 ---
 layout: default
 ---
+
+{% assign sponsors = site.data.sponsors %}
+
+<h1 class="text-center">Sponsors</h1>
+
+<section class="sponsors-grid">
+  {% for company in sponsors %}
+  <div class="sponsor">
+    <div class="sponsor-image-wrapper">
+      <a href="{{ company.website }}" target="_blank">
+        <img class="sponsor-image" src="{{site.baseurl}}/assets/images/sponsor-logos/{{ company.logo }}">
+      </a>
+    </div>
+    <h5>{{ company.name }}</h5>
+  </div>
+  {% endfor %}
+</section>
