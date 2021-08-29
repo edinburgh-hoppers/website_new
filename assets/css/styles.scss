@@ -583,15 +583,15 @@ _________________________________________________________________
     top:200px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    place-content: center;
+    place-items: center;
     color: $hoppers-gray-light;
 
     h4{
-      align-self: center;
       font-weight: 700;
     }
-    h5{
-      align-self:center;
+    h6{
+      text-align: center;
     }
   }
 
@@ -623,6 +623,10 @@ _________________________________________________________________
     }
     h4, h5{
       font-size: 0.8em;
+    }
+    h6{
+      width: 150px;
+      font-size: 0.6em;
     }
   }
 }

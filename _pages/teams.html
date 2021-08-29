@@ -8,7 +8,7 @@ layout: default
     <div class="title">
         <h1>Meet the team</h1>
         <p>Our committee is comprised of a diverse group of students from the School of Informatics, as well as students
-            in joint degrees with the Schools of Mathematics, Engineering or Businnes. We are always looking for
+            in joint degrees with the Schools of Mathematics, Engineering or Business. We are always looking for
             passionate
             people with any kind of skills to join our team and help grow our community.
         </p>
@@ -23,7 +23,8 @@ layout: default
         <div class="member-card" style="background-image: url({{site.baseurl}}/assets/images/team/{{ member.link }})">
             <div class="overlay">
                 <h4>{{ member.name }}</h4>
-                <h5> {{ member.role }}</h5>
+                <h5>{{ member.role }}</h5>
+                <h6>{{ member.year }}</h6>
             </div>
         </div>
         {% endfor %}

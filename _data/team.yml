@@ -1,49 +1,59 @@
 - name: Sraddheya Gurung
   role: President
-  emoji: 
+  year: Year 3, 
   link: sraddheya.jpeg
+  linkedin: 
 
 - name: Priya Sadh
   role: Secretary
-  emoji:
+  year: Year 4, Artificial Intelligence
   link: priya.jpg
+  linkedin: 
 
 - name: Regan Hwang
   role: Treasurer
-  emoji: 
+  year: Year 3, Mathematics
   link: regan.jpg
+  linkedin: 
 
 - name: Aparna Rajeev
   role: Head of Tech
-  emoji:
+  year: Year 4, Artificial Intelligence and Software Engineering
   link: aparna.jpg
+  linkedin: https://www.linkedin.com/in/aparna-rajeev/
 
 - name: Sarah Kayser
   role: Head of Media
-  emoji: 
+  year: Year 4, Artificial Intelligence and Software Engineering
   link: sarah.jpg
+  linkedin: 
 
 - name: Ioana Buzduga
   role: Head of Sponsorship
-  emoji:
+  year: Year 4,
   link: ioana.jpeg
+  linkedin: 
 
 - name: Laura O'Sullivan
   role: Tech Coordinator
-  emoji:
+  year: Year 3, 
   link: laura_o.jpeg
+  linkedin: 
 
 - name: Jahnvi Jaiman
   role: Tech Coordinator
-  emoji:
+  year: Year 3,
   link: jahnvi.jpeg
+  linkedin: 
 
 - name: Prapti Maitra
   role: Media Coordinator
-  emoji:
+  year: Year 3,
   link: prapti.jpg
+  linkedin: 
 
 - name: Laura Ritter
   role: Media Coordinator
-  emoji:
+  year: Year 
   link: laura_r.jpeg
+  linkedin: 
