@@ -17,6 +17,9 @@ $hoppers-gradient: linear-gradient(90deg, $hoppers-blue, $hoppers-dark-green);
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;1,300&display=swap');
 
 /* GENERAL PROPERTIES */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background-color: $hoppers-gray-light;
@@ -685,26 +688,23 @@ _________________________________________________________________
 .tiers {
 
   width: 90vw;
-  text-align: center;
-  // display: flex;
-  // flex-direction: column;
-  // align-items: center;
-  // justify-content: center;
+  margin: auto;
+
   #tiers-intro {
     text-align: center;
-    //padding: 5vw 9vw 2vw 9vw;
-    margin: 5%;
-    // @media(max-width: 700px){
-    //   font-size: 13px;
-    // }
+    margin: 5% 0;
+
     p {
       max-width: 70ch;
       margin: auto;
-      
       a {
         font-weight: bold;
       }
     }
+  }
+
+  table {
+    margin: auto;
   }
 
   td {
