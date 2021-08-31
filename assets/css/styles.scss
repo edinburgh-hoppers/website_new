@@ -476,6 +476,12 @@ footer {
   padding: 50px;
   margin-top: 100px;
 
+  // transition: all $jwow-ease;
+  //   :hover {
+  //     transform: scale(1.2);
+  //     //transition: all $jwow-ease-out;
+  //   }
+
   h3{
     text-align: center;
     color: $hoppers-black;
@@ -497,14 +503,15 @@ footer {
     }
   }
 
-  a{
+  a {
     color: $hoppers-black;
+    padding: 0 2px;
   }
 
   a:hover{
     text-decoration: none;
-    background-color: $hoppers-dark-green;
-    color: black;
+    background: $hoppers-gradient;
+    color: $hoppers-gray-light;
   }
 
   .outer-wrapper{
@@ -514,6 +521,8 @@ footer {
     flex-direction: column;
     place-content: center;
     padding: 10px;
+
+    
   }
 
   .contact-us-wrapper{
@@ -521,6 +530,8 @@ footer {
     flex-direction: row;
     justify-content: center;
   }
+
+  
 }
 
 
