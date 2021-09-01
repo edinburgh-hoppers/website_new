@@ -33,12 +33,7 @@ body {
 main {
   display: grid;
   place-content: center;
-  //margin-bottom: 50px;
 }
-
-// section {
-//   margin: 0% 10%;
-// }
 
 .card {
   background-color: $hoppers-gray-light;
@@ -113,7 +108,7 @@ a {
       margin: 20px;
     }
     
-    p{
+    p {
       text-align: center;
       justify-self: center;
       align-self: center;
@@ -163,10 +158,8 @@ a {
   color: #ffffff !important;
   text-align: center;
 
-  // background-color: $hoppers-green;
   background: $hoppers-gradient;
   padding: .5rem!important;
-  // border: 1.5px $hoppers-green solid;
   border-radius: 0.25rem;
 
   display: inline-block;
