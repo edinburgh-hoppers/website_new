@@ -588,6 +588,10 @@ _________________________________________________________________
     border-radius: 20px;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   .overlay{
     background: rgba($hoppers-black,0.5);
   
@@ -600,10 +604,10 @@ _________________________________________________________________
     place-content: center;
     place-items: center;
     
-
     h4{
       font-weight: 700;
     }
+
     h6{
       text-align: center;
     }

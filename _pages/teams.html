@@ -21,11 +21,13 @@ layout: default
     <div class="member-wrapper">
         {% for member in team %}
         <div class="member-card" style="background-image: url({{site.baseurl}}/assets/images/team/{{ member.link }})">
-            <div class="overlay">
-                <h4>{{ member.name }}</h4>
-                <h5>{{ member.role }}</h5>
-                <h6>{{ member.year }}</h6>
-            </div>
+            <a href="{{ member.linkedin }}" target="_blank">
+                <div class="overlay">
+                    <h4>{{ member.name }}</h4>
+                    <h5>{{ member.role }}</h5>
+                    <h6>{{ member.year }}</h6>
+                </div>
+            </a>
         </div>
         {% endfor %}
     </div>
