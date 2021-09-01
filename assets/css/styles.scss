@@ -599,13 +599,17 @@ _________________________________________________________________
     flex-direction: column;
     place-content: center;
     place-items: center;
-    color: $hoppers-gray-light;
+    
 
     h4{
       font-weight: 700;
     }
     h6{
       text-align: center;
+    }
+
+    h4, h5, h6 {
+      color: $hoppers-gray-light;
     }
   }
 
