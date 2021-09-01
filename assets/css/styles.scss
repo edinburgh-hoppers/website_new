@@ -80,6 +80,16 @@ a {
   box-shadow:         5px 5px 4px 2px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
 
+::-moz-selection {
+  background: $hoppers-light-green;
+  color: $hoppers-gray-light;
+}
+
+::selection {
+  background: $hoppers-green;
+  color: $hoppers-gray-light;
+}
+
 
 .page {
   display: grid;
@@ -566,6 +576,10 @@ _________________________________________________________________
       justify-self: start;
       align-self: center;
       margin: 0;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
   }
 
