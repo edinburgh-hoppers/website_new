@@ -693,9 +693,9 @@ _________________________________________________________________
     .highlighted {
       background: $hoppers-light-green;
       width: 90%;
-      padding: 2%;
-      margin: 2% auto 5%;
-      display: flex;
+      padding: 20px;
+      margin: 20px auto 50px;
+      //display: flex;
       align-items: center;
       border-radius: 20px;
 
@@ -710,12 +710,35 @@ _________________________________________________________________
         margin: 2%;
         text-align: start;
       }
+
+      @media screen and (max-width:992px) {
+
+        padding-top: 30px;
+        .upcoming-event-logo img {
+          width: 200px;
+          margin-bottom: 10px;
+        }
+        .upcoming-event-desc {
+          text-align: center;
+        }
+      }
     }
   }
 
   .event-types-wrapper {
-    display: flex;
-    
+    //display: flex;
+    margin: 20px auto 50px;
+    justify-content: space-evenly;
+
+    .event-type-card {
+      flex: 1 100%;
+      background: $hoppers-gray-light;
+      margin: 10px;
+      padding: 15px;
+      border-radius: 20px;
+      border: 3px solid $hoppers-light-green;
+
+    }
   }
 }
 
