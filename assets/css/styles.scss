@@ -666,10 +666,6 @@ _________________________________________________________________
 */
 
 .sponsors-grid {
-  // display: grid;
-  // grid-template-columns: repeat(4, 1fr);
-  // column-gap: 2%;
-  // row-gap: 10%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -694,6 +690,7 @@ _________________________________________________________________
   .sponsor-image {
     max-height: 60px;
   }
+
 }
 
 .tiers {
@@ -709,6 +706,7 @@ _________________________________________________________________
       max-width: 70ch;
       margin: auto;
       a {
+        margin: 0;
         font-weight: bold;
       }
     }
