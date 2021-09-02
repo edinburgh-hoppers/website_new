@@ -80,17 +80,22 @@ layout: default
 
 	<section class="past-big-events" id="past-big-events-section">
 		<h2>Our previous big events</h2>
-		{% for event in pbes %}
-		<div class="pbe-card d-flex align-items-center">
-			<div class="pbe-logo">
-				<img src="{{site.baseurl}}/assets/images/logos/{{ event.logo }}" alt="">
+		<div class="pbes">
+			{% for event in pbes %}
+			<div class="pbe-card d-flex align-items-center flex-column flex-md-row">
+				<div class="pbe-logo">
+					<img src="{{site.baseurl}}/assets/images/logos/{{ event.logo }}" alt="">
+				</div>
+				<div class="pbe-info flex-grow-1 text-center text-md-left">
+					<h3>{{ event.name }}</h3>
+					<h4>{{ event.date }}</h4>
+					{% if event.desc %}
+					{% include pastBigEvents/{{event.desc}} %}
+					{% endif %}
+				</div>
 			</div>
-			<div class="pbe-info flex-grow-1">
-				<h3>{{ event.name }}</h3>
-				<h4>{{ event.date }}</h4>
-			</div>
+			{% endfor %}
 		</div>
-		{% endfor %}
 	</section>
 
 </div>

@@ -692,7 +692,7 @@ _________________________________________________________________
   .upcoming-event-section {
     .highlighted {
       background: $hoppers-light-green;
-      width: 90%;
+      //width: 90%;
       padding: 20px;
       margin: 20px auto 50px;
       //display: flex;
@@ -701,7 +701,7 @@ _________________________________________________________________
 
       .upcoming-event-logo {
         img {
-          width: 280px;
+          width: 260px;
           height: auto;
         }
       }
@@ -774,6 +774,28 @@ _________________________________________________________________
       display: none;
     }
   }
+
+
+  .pbes {
+
+    margin: 20px auto 50px;
+    .pbe-card {
+      background: $hoppers-gray-light;
+      margin: 10px;
+      padding: 15px;
+      border-radius: 20px;
+      border: 3px solid $hoppers-light-green;
+
+      .pbe-logo {
+        margin: 20px;
+        img {
+        width: 200px;
+        height: auto;
+        }
+      }
+    }
+  }
+  
   
 
 }
