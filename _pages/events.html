@@ -88,7 +88,7 @@ layout: default
 			<div class="pbe-info flex-grow-1">
 				<h3>{{ event.name }}</h3>
 				<h4>{{ event.date }}</h4>
-				{% include pastBigEvents/{{ event.desc }} %}
+				{% include {{ event.desc }} %}
 			</div>
 		</div>
 		{% endfor %}
