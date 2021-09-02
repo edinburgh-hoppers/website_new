@@ -2,6 +2,7 @@
 layout: default
 ---
 
+{% assign pbes = site.data.pastBigEvents %}
 <div class="events-page">
 
 	<section class="title-section">
@@ -79,9 +80,18 @@ layout: default
 
 	<section class="past-big-events" id="past-big-events-section">
 		<h2>Our previous big events</h2>
+		{% for event in pbes %}
 		<div class="pbe-card d-flex align-items-center">
-			.pbe-logo
+			<div class="pbe-logo">
+				<img src="{{site.baseurl}}/assets/images/logos/{{ event.logo }}" alt="">
+			</div>
+			<div class="pbe-info flex-grow-1">
+				<h3>{{ event.name }}</h3>
+				<h4>{{ event.date }}</h4>
+				{% include pastBigEvents/{{ event.desc }} %}
+			</div>
 		</div>
+		{% endfor %}
 	</section>
 
 </div>
