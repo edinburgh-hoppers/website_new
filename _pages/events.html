@@ -92,6 +92,10 @@ layout: default
 					{% if event.desc %}
 					{% include pastBigEvents/{{event.desc}} %}
 					{% endif %}
+					<div class="col-12 center-horizentally">
+						<a class="col-12 col-md-5 col-lg-6 button clickable" href="{{ event.link }}" target="_blank">Go to the
+							website</a>
+					</div>
 				</div>
 			</div>
 			{% endfor %}
