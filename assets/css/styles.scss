@@ -740,6 +740,40 @@ _________________________________________________________________
 
     }
   }
+
+  /* Embedded calendar stylings */ 
+
+  .calendar-wrapper {
+    margin: 20px auto 50px;
+  }
+  #smgc-cal-lcOSRAOVrXSBQGcGEnQe-calendar-container {
+    border-radius: 20px;
+    overflow: hidden !important;
+  }
+  .smgc-cal-lcOSRAOVrXSBQGcGEnQe-event-start-time {
+    font-weight: 400 !important;
+  }
+
+  #smgc-cal-lcOSRAOVrXSBQGcGEnQe a.add-calendar-button {
+    border-color: $hoppers-green;
+    color: $hoppers-gray-light;
+    border-radius: 10px;
+    margin: 8px 10px;
+    padding: 6px 10px;
+
+    :hover {
+      font-weight: bold;
+    }
+
+    span.plus {
+      display: none;
+    }
+  }
+
+  #smgc-cal-lcOSRAOVrXSBQGcGEnQe .smgc-watermark img {
+    display: none;
+  }
+
 }
 
 
