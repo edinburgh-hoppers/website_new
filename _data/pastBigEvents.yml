@@ -5,17 +5,11 @@
   logo: we-21-logo-hands-2.png
   desc: womenempowered21.html
   link: https://womenempowered.space/
-  logo-order: 0
-  info-order: 1
-  text-align: left
 
 - name: Ada Lovelace Day
   date: October 2020
   logo: ald-2020-logo.png
   desc: ald20.html
   link: https://edinburgh-hoppers.github.io/website/ald20
-  logo-order: 1
-  info-order: 0
-  text-align: right
 
   
