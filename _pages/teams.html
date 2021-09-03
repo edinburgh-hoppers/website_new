@@ -13,24 +13,24 @@ layout: default
             people with any kind of skills to join our team and help grow our community.
 
             If you are interested in
-            joining us, <a href="https://forms.gle/zMaTPutRp7HkLz5D9" target="_blank">apply here</a>.
+            joining the committee, <a href="https://forms.gle/zMaTPutRp7HkLz5D9" target="_blank">apply here</a>.
         </p>
-        <!-- <div class="col-12 center-horizontally">
-            <a class="col-12 col-md-5 col-lg-5 button clickable" href="https://forms.gle/zMaTPutRp7HkLz5D9"
-                target="_blank">Join our team</a>
-        </div> -->
     </div>
 
     <div class="member-wrapper">
         {% for member in team %}
         <div class="member-card" style="background-image: url({{site.baseurl}}/assets/images/team/{{ member.link }})">
+            {% if member.linkedin %}
             <a href="{{ member.linkedin }}" target="_blank">
+                {% endif %}
                 <div class="overlay">
                     <h4>{{ member.name }}</h4>
                     <h5>{{ member.role }}</h5>
                     <h6>{{ member.year }}</h6>
                 </div>
+                {% if member.linkedin %}
             </a>
+            {% endif %}
         </div>
         {% endfor %}
     </div>
