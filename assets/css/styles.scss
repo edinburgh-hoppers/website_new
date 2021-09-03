@@ -85,6 +85,11 @@ a {
   color: $hoppers-gray-light;
 }
 
+// add this class to sections with anchor tags pointing to them
+.scroll-margin-top {
+  scroll-margin-top: 100px;
+}
+
 
 .page {
   display: grid;
@@ -248,26 +253,49 @@ _________________________________________________________________
   max-height: 200px;
   max-width: 70ch;
   margin-top: 5%;
-}
 
+  .slick {
+    width: 100%;
+  
+    .carousel-image-wrapper {
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 20px 20px;
+  
+      .carousel-image {
+        //max-height: 60px;
+        max-height: 100px;
+        width: auto;
+        min-width: 100px;
+        max-width: 250px;
+        transition: transform $jwow-ease;
 
-
-.slick {
-  width: 100%;
-}
-
-.carousel-image {
-  max-height: 60px;
-  margin: 20px 20px;
+        &:hover {
+          transform: scale(1.1);
+          transition: transform $jwow-ease-out;
+        }
+        
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 700px) {
   .carousel-wrapper {
     width: 250px;
   }
-  .carousel-image {
-    height: 40px;
+  .carousel-image-wrapper {
+    .carousel-image {
+      height: auto;
+      max-height: 50px;
+      width: auto;
+      min-width: 50px;
+      max-width: 150px;
+    }
   }
+  
 }
 
 .slick-dots {
@@ -810,6 +838,7 @@ _________________________________________________________________
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   margin-top: 2%;
   width: 90vw;
 
@@ -820,6 +849,10 @@ _________________________________________________________________
   
   .sponsor-image-wrapper {
     margin: 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition: transform $jwow-ease;
 
     &:hover {
@@ -829,7 +862,10 @@ _________________________________________________________________
   }
 
   .sponsor-image {
-    max-height: 60px;
+    max-height: 100px;
+    width: auto;
+    min-width: 100px;
+    max-width: 250px;
   }
 
 }
