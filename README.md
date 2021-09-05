@@ -1,10 +1,10 @@
 # Hoppers new website 
 
-Tasks: 
+<!-- Tasks: 
 - Julia: home page
 - Aparna: footer of contacts plus animations
 - Sraddheya: events page
-- Ioana: teams (meet the team + about us), sponsorship page
+- Ioana: teams (meet the team + about us), sponsorship page -->
 
 Some tips to keep format consistent everywhere - 
 - In CSS, comment what page that section of code is for, and keep all global styles on the top of the document (can also look into splitting into multiple stylesheets - like one for events, one for home, etc.) 
