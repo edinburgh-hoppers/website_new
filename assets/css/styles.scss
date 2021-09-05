@@ -507,39 +507,6 @@ footer {
   padding: 50px;
   margin-top: 100px;
 
-
-  h3{
-    text-align: center;
-    color: $hoppers-black;
-    font-size: 14pt;
-  }
-
-  img{
-    width: 50px;
-    height: 50px;
-    margin: 1vmax 0.5vmax;
-    transition: transform 0.2s ease-out;
-    background-color: $hoppers-black;
-    padding: 10px;
-    border-radius: 50%;
-
-    &:hover{
-      transform: scale(1.05);
-      transition: transform 0.2s ease-out;
-    }
-  }
-
-  a {
-    color: $hoppers-black;
-    padding: 0 2px;
-  }
-
-  a:hover{
-    text-decoration: none;
-    background: $hoppers-gradient;
-    color: $hoppers-gray-light;
-  }
-
   .outer-wrapper{
     background-color: rgba($hoppers-gray-light,0.6);
     border-radius: 10px;
@@ -548,14 +515,51 @@ footer {
     place-content: center;
     padding: 10px;
 
+    .contact-us-wrapper{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    h3{
+      text-align: center;
+      color: $hoppers-black;
+      font-size: 14pt;
+    }
+  
+    img {
+      width: 50px;
+      height: 50px;
+      margin: 1vmax 0.5vmax;
+      transition: transform 0.2s ease-out;
+      background-color: $hoppers-black;
+      padding: 10px;
+      border-radius: 50%;
+  
+      &:hover{
+        transform: scale(1.05);
+        transition: transform 0.2s ease-out;
+      }
+    }
+  
+    a {
+      color: $hoppers-black;
+      padding: 0 2px;
+    }
+  
+    a:hover{
+      text-decoration: none;
+      background: $hoppers-gradient;
+      color: $hoppers-gray-light;
+    }
     
   }
 
-  .contact-us-wrapper{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  .heart {
+    width: 1.5em;
   }
+
+  
 
   
 }
