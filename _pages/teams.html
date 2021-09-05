@@ -7,30 +7,31 @@ layout: default
 <div class="team">
     <div class="title">
         <h1>Meet the team</h1>
-        <p>Our committee is comprised of a diverse group of students from the School of Informatics, as well as students
-            in joint degrees with the Schools of Mathematics, Engineering or Business. We are always looking for
-            passionate
-            people with any kind of skills to join our team and help grow our community.
+        <p>We all come from different parts of the world, growing up with different cultures, languages, upbringing
+            and education. But what connects us all is our shared desire to celebrate this very diversity within the
+            School of Informatics. We want to encourage and support women and all other gender minorities to take pride
+            who they are, and help them explore their creativity and innovative ideas.
+
 
             If you are interested in
-            joining us, <a href="https://forms.gle/zMaTPutRp7HkLz5D9" target="_blank">apply here</a>.
+            joining the committee, <a href="https://forms.gle/zMaTPutRp7HkLz5D9" target="_blank">apply here</a>.
         </p>
-        <!-- <div class="col-12 center-horizontally">
-            <a class="col-12 col-md-5 col-lg-5 button clickable" href="https://forms.gle/zMaTPutRp7HkLz5D9"
-                target="_blank">Join our team</a>
-        </div> -->
     </div>
 
     <div class="member-wrapper">
         {% for member in team %}
         <div class="member-card" style="background-image: url({{site.baseurl}}/assets/images/team/{{ member.link }})">
+            {% if member.linkedin %}
             <a href="{{ member.linkedin }}" target="_blank">
+                {% endif %}
                 <div class="overlay">
                     <h4>{{ member.name }}</h4>
                     <h5>{{ member.role }}</h5>
                     <h6>{{ member.year }}</h6>
                 </div>
+                {% if member.linkedin %}
             </a>
+            {% endif %}
         </div>
         {% endfor %}
     </div>

@@ -33,12 +33,7 @@ body {
 main {
   display: grid;
   place-content: center;
-  //margin-bottom: 50px;
 }
-
-// section {
-//   margin: 0% 10%;
-// }
 
 .card {
   background-color: $hoppers-gray-light;
@@ -90,6 +85,11 @@ a {
   color: $hoppers-gray-light;
 }
 
+// add this class to sections with anchor tags pointing to them
+.scroll-margin-top {
+  scroll-margin-top: 100px;
+}
+
 
 .page {
   display: grid;
@@ -97,29 +97,29 @@ a {
   width: 90vw;
   grid-template-rows: max-content max-content;
   grid-template-areas: 'title' '.';
+}
 
-  .title-section {
-    grid-area: title;
-    display: grid;
-    //grid-template-columns: 1fr 2fr;
-    padding-bottom: 10px;
+.title-section {
+  grid-area: title;
+  display: grid;
+  //grid-template-columns: 1fr 2fr;
+  padding-bottom: 10px;
+
+  h1{
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    margin: 0;
+    //margin-right: 20px;
+    margin: 20px;
+  }
   
-    h1{
-      justify-self: center;
-      align-self: center;
-      text-align: center;
-      margin: 0;
-      //margin-right: 20px;
-      margin: 20px;
-    }
-    
-    p{
-      text-align: center;
-      justify-self: center;
-      align-self: center;
-      max-width: 70ch;
-      //margin: 0;
-    }
+  p {
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    max-width: 70ch;
+    //margin: 0;
   }
 }
 
@@ -163,10 +163,8 @@ a {
   color: #ffffff !important;
   text-align: center;
 
-  // background-color: $hoppers-green;
   background: $hoppers-gradient;
   padding: .5rem!important;
-  // border: 1.5px $hoppers-green solid;
   border-radius: 0.25rem;
 
   display: inline-block;
@@ -255,26 +253,49 @@ _________________________________________________________________
   max-height: 200px;
   max-width: 70ch;
   margin-top: 5%;
-}
 
+  .slick {
+    width: 100%;
+  
+    .carousel-image-wrapper {
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 20px 20px;
+  
+      .carousel-image {
+        //max-height: 60px;
+        max-height: 100px;
+        width: auto;
+        min-width: 100px;
+        max-width: 250px;
+        transition: transform $jwow-ease;
 
-
-.slick {
-  width: 100%;
-}
-
-.carousel-image {
-  max-height: 60px;
-  margin: 20px 20px;
+        &:hover {
+          transform: scale(1.1);
+          transition: transform $jwow-ease-out;
+        }
+        
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 700px) {
   .carousel-wrapper {
     width: 250px;
   }
-  .carousel-image {
-    height: 40px;
+  .carousel-image-wrapper {
+    .carousel-image {
+      height: auto;
+      max-height: 50px;
+      width: auto;
+      min-width: 50px;
+      max-width: 150px;
+    }
   }
+  
 }
 
 .slick-dots {
@@ -484,44 +505,23 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 50px;
+  padding-bottom: 0;
   margin-top: 100px;
-
-  // transition: all $jwow-ease;
-  //   :hover {
-  //     transform: scale(1.2);
-  //     //transition: all $jwow-ease-out;
-  //   }
 
   h3{
     text-align: center;
     color: $hoppers-black;
     font-size: 14pt;
-  }
-
-  img{
-    width: 50px;
-    height: 50px;
-    margin: 1vmax 0.5vmax;
-    transition: transform 0.2s ease-out;
-    background-color: $hoppers-black;
-    padding: 10px;
-    border-radius: 50%;
-
-    &:hover{
-      transform: scale(1.05);
-      transition: transform 0.2s ease-out;
+    a {
+      color: $hoppers-black;
+      padding: 0 2px;
     }
-  }
-
-  a {
-    color: $hoppers-black;
-    padding: 0 2px;
-  }
-
-  a:hover{
-    text-decoration: none;
-    background: $hoppers-gradient;
-    color: $hoppers-gray-light;
+  
+    a:hover{
+      text-decoration: none;
+      background: $hoppers-gradient;
+      color: $hoppers-gray-light;
+    }
   }
 
   .outer-wrapper{
@@ -532,14 +532,65 @@ footer {
     place-content: center;
     padding: 10px;
 
+    .contact-us-wrapper{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    
+  
+    img {
+      width: 50px;
+      height: 50px;
+      margin: 1vmax 0.5vmax;
+      transition: transform 0.2s ease-out;
+      background-color: $hoppers-black;
+      padding: 10px;
+      border-radius: 50%;
+  
+      &:hover{
+        transform: scale(1.05);
+        transition: transform 0.2s ease-out;
+      }
+    }
+  
+    
     
   }
+  .attribution {
 
-  .contact-us-wrapper{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    background-color: rgba($hoppers-gray-light,0.6);
+    border-radius: 10px;
+    //position:fixed; 
+    bottom:0;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+
+    p {
+      margin: 0;
+    }
+
+    a {
+      color: $hoppers-black;
+      padding: 0 2px;
+    }
+  
+    a:hover{
+      text-decoration: none;
+      background: $hoppers-gradient;
+      color: $hoppers-gray-light;
+    }
+
+    .heart {
+      width: 1.5em;
+    }
   }
+
+  
+
+  
 
   
 }
@@ -678,12 +729,140 @@ _________________________________________________________________
   margin-top: 1rem;
   background: $hoppers-gray-light;
   padding: 3%;
-  border-radius: 30px;
+  border-radius: 20px;
+  border: 3px solid $hoppers-light-green;
 
   p {
     margin-bottom: 0.7rem;
   }
 }
+
+
+/*
+_________________________________________________________________
+EVENTS
+_________________________________________________________________
+*/
+
+.events-page {
+  width: 90vw;
+  margin: auto;
+
+  section {
+    text-align: center;
+    //margin: 2% auto 5%;
+  }
+
+  .upcoming-event-section {
+    .highlighted {
+      background: $hoppers-light-green;
+      //width: 90%;
+      padding: 20px;
+      margin: 20px auto 50px;
+      //display: flex;
+      align-items: center;
+      border-radius: 20px;
+
+      .upcoming-event-logo {
+        img {
+          width: 260px;
+          height: auto;
+        }
+      }
+      
+      .upcoming-event-desc {
+        margin: 2%;
+        text-align: start;
+      }
+
+      @media screen and (max-width:992px) {
+
+        padding-top: 30px;
+        .upcoming-event-logo img {
+          width: 200px;
+          margin-bottom: 10px;
+        }
+        .upcoming-event-desc {
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .event-types-wrapper {
+    //display: flex;
+    margin: 20px auto 50px;
+    justify-content: space-evenly;
+
+    .event-type-card {
+      flex: 1 100%;
+      background: $hoppers-gray-light;
+      margin: 10px;
+      padding: 15px;
+      border-radius: 20px;
+      border: 3px solid $hoppers-light-green;
+
+    }
+  }
+
+  /* Embedded calendar stylings */ 
+
+  .calendar-wrapper {
+    margin: 20px auto 50px;
+
+    #smgc-cal-lcOSRAOVrXSBQGcGEnQe-calendar-container {
+      border-radius: 20px;
+      overflow: hidden !important;
+    }
+    .smgc-cal-lcOSRAOVrXSBQGcGEnQe-event-start-time {
+      font-weight: 400 !important;
+    }
+  
+    #smgc-cal-lcOSRAOVrXSBQGcGEnQe a.add-calendar-button {
+      border-color: $hoppers-green;
+      color: $hoppers-gray-light;
+      border-radius: 10px;
+      margin: 8px 10px;
+      padding: 6px 10px;
+      background-color: $hoppers-gray-light;
+      max-width: 80px;
+  
+      :hover {
+        font-weight: bold;
+      }
+  
+      span.plus {
+        display: none;
+      }
+    }
+  
+    #smgc-cal-lcOSRAOVrXSBQGcGEnQe .smgc-watermark img {
+      display: none;
+    }
+  }
+
+
+  .pbes {
+    margin: 20px auto 50px;
+    .pbe-card {
+      background: $hoppers-gray-light;
+      margin: 10px;
+      padding: 15px;
+      border-radius: 20px;
+      border: 3px solid $hoppers-light-green;
+
+      .pbe-logo {
+        margin: 20px;
+        img {
+          width: 200px;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
+
 
 /*
 _________________________________________________________________
@@ -695,6 +874,7 @@ _________________________________________________________________
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   margin-top: 2%;
   width: 90vw;
 
@@ -705,6 +885,10 @@ _________________________________________________________________
   
   .sponsor-image-wrapper {
     margin: 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition: transform $jwow-ease;
 
     &:hover {
@@ -714,7 +898,10 @@ _________________________________________________________________
   }
 
   .sponsor-image {
-    max-height: 60px;
+    max-height: 100px;
+    width: auto;
+    min-width: 100px;
+    max-width: 250px;
   }
 
 }

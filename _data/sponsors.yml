@@ -6,14 +6,38 @@
   logo: inf.png
   website: https://www.ed.ac.uk/informatics
 
-- name: Modulr
-  logo: modulr.png
-  website: https://www.modulrfinance.com/
-
-- name: Amazon
-  logo: amazon.png
-  website: https://www.amazon.com
-
 - name: Hubspot
   logo: HubSpot.png
   website: https://www.hubspot.com/
+
+- name: NatWest
+  logo: natwest1.png
+  website: https://personal.natwest.com/
+
+- name: Optiver
+  logo: optiver.png
+  website: https://www.optiver.com/
+
+- name: Stripe
+  logo: stripe.png
+  website: https://stripe.com/
+
+- name: Cisco
+  logo: cisco.png
+  website: https://www.cisco.com/
+
+- name: American Express
+  logo: amex.png
+  website: https://www.hubspot.com/#
+
+- name: SmartSheet
+  logo: smartsheet.png
+  website: https://www.hubspot.com/
+
+# - name: Modulr
+#   logo: modulr.png
+#   website: https://www.modulrfinance.com/
+
+# - name: Amazon
+#   logo: amazon.png
+#   website: https://www.amazon.com

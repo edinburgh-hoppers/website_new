@@ -1,14 +1,14 @@
 - name: Sraddheya Gurung
   role: President
-  year: Year 3, 
+  year: Year 3, Computer Science
   link: sraddheya.jpeg
-  linkedin: 
+  linkedin: https://www.linkedin.com/in/sraddheya-gurung-0351b4203/
 
 - name: Priya Sadh
   role: Secretary
-  year: Year 4, Artificial Intelligence
+  year: Year 4, Artificial Intelligence and Computer Science
   link: priya.jpg
-  linkedin: 
+  linkedin: https://www.linkedin.com/in/priyasadh/
 
 - name: Regan Hwang
   role: Treasurer
@@ -26,11 +26,11 @@
   role: Head of Media
   year: Year 4, Artificial Intelligence and Software Engineering
   link: sarah.jpg
-  linkedin: 
+  linkedin: https://www.linkedin.com/in/sarah-kayser/
 
 - name: Ioana Buzduga
   role: Head of Sponsorship
-  year: Year 4,
+  year: 
   link: ioana.jpeg
   linkedin: 
 
@@ -42,18 +42,18 @@
 
 - name: Jahnvi Jaiman
   role: Tech Coordinator
-  year: Year 3,
+  year: Year 3, Computer Science
   link: jahnvi.jpeg
   linkedin: 
 
 - name: Prapti Maitra
   role: Media Coordinator
-  year: Year 3,
+  year: Year 3, Computer Science and Mathematics
   link: prapti.jpg
-  linkedin: 
+  linkedin: https://www.linkedin.com/in/prapti-maitra-0673b7193
 
 - name: Laura Ritter
   role: Media Coordinator
-  year: Year 
+  year: 
   link: laura_r.jpeg
   linkedin: 

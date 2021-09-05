@@ -1,0 +1,21 @@
+# more recent events are to be added at the top
+
+- name: WomenEmpowerED
+  date: March 2021
+  logo: we-21-logo-hands-2.png
+  desc: womenempowered21.html
+  link: https://womenempowered.space/
+
+- name: Ada Lovelace Day
+  date: October 2020
+  logo: ald-2020-logo.png
+  desc: ald20.html
+  link: https://edinburgh-hoppers.github.io/website/ald20
+
+# - name: International Women's Day
+#   date: March 2020
+#   logo: iwd-2020-logo.png
+#   desc: 
+#   link: https://edinburgh-hoppers.github.io/website/iwd20
+
+  
