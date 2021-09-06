@@ -28,7 +28,7 @@ layout: default
         <img class="w-100 d-block rounded-circle mb-2" src="
           {%- if voice.img -%}
             {{ '/assets/images/aboutUsVoices/' | append: voice.img | relative_url }}
-          {%- endif -%}">
+          {%- endif -%}" alt="Photo of {{ voice.name }}">
       </div>
 
       <span style="font-weight: bold" class="text-center">
