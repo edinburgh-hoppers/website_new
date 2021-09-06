@@ -805,6 +805,11 @@ _________________________________________________________________
     }
   }
 
+  .event-calendar p {
+    max-width: 80ch;
+    margin: auto;
+  }
+
   /* Embedded calendar stylings */ 
 
   .calendar-wrapper {
