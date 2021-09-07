@@ -31,7 +31,7 @@
 
       <!-- home button (only on large screens) -->
       <li class="navbar-brand mx-1 p-0 d-none d-sm-block">
-        <a class="nav-link" href="{{ site.baseurl }}/" style="height: 0">
+        <a class="nav-link" href="/" style="height: 0">
           <img src="{{ site.baseurl }}/assets/images/logos/hoppers-logo-nav.png" width="100"
             class="navbar-logo rounded-circle clickable shadow-sm">
         </a>
@@ -40,7 +40,7 @@
       {% for item in site.data.nav %}
       <li class="nav-item rounded mx-1">
         <a class="nav-link {% if item.text == 'AGM' or item.text == 'Scholarship'%} highlight {% endif %}"
-          href="{{ site.baseurl }}/{{ item.href }}">{{ item.text }}</a>
+          href="/{{ item.href }}">{{ item.text }}</a>
       </li>
       {% endfor %}
 
