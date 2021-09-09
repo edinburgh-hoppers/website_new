@@ -96,3 +96,7 @@ For a new sponsors, add a new entry to the file and place the logo (png format, 
 When a company stops sponsoring us, don't delete their entry, just comment it out, in case they sponsors us again the future.
 
 ### Sponsorships
+
+### Testimonies
+
+### Constitution
