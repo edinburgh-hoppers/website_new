@@ -89,4 +89,10 @@ If the information for the new upcoming event is ready, replace the information 
 
 ### Sponsors
 
+Open `sponsors.yml`, located under the `_data` folder. This file contains all the information about our sponsors displayed in the [sponsors page](https://edinburghhoppers.com/sponsors) and in the homepage.
+
+For a new sponsors, add a new entry to the file and place the logo (png format, transparent background, preferably vertical design) under `/assets/images/sponsor-logos/`.
+
+When a company stops sponsoring us, don't delete their entry, just comment it out, in case they sponsors us again the future.
+
 ### Sponsorships
