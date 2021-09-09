@@ -97,6 +97,12 @@ When a company stops sponsoring us, don't delete their entry, just comment it ou
 
 ### Sponsorships
 
+**Proposal**:
+
+**Tier prices**:
+
+**Sponsorship perks**:
+
 ### Testimonies
 
 ### Constitution
