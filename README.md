@@ -70,16 +70,22 @@ To keep the website up to date, the information under the \_data folder must be 
 
 ### Team members
 
-Go to `team.yml` under the `/_data` folder. This file contains all the infromation from the committee mebers that is displayed in the [teams page](https://edinburghhoppers.com/teams).
+Go to `team.yml` under the `_data` folder. This file contains all the infromation from the committee mebers that is displayed in the [teams page](https://edinburghhoppers.com/teams).
 
 
 
 
 ### Big events
 
-After a big event is over, the highlighted event under [Upcoming event in the events page](https://edinburghhoppers.com/events#upcoming-event-section) should be moved to [past big events](https://edinburghhoppers.com/events#past-big-events-section) and it should be repalced with the information of the new upcoming event.
+After a big event is over, the highlighted event under [Upcoming event in the events page](https://edinburghhoppers.com/events#upcoming-event-section) should be moved to [past big events](https://edinburghhoppers.com/events#past-big-events-section) and it should be replaced with the information of the new upcoming event.
 
-Go to `pastBigEvents.yml` under the `/_data` folder. This file contains all the information about our past big events displayed in the [events page](https://edinburghhoppers.com/events#past-big-events-section)
+Open `pastBigEvents.yml`, located under the `_data` folder. This file contains all the information about our past big events displayed in the [events page](https://edinburghhoppers.com/events#past-big-events-section).
+
+Open `events.html`, located under the `_pages` folder. The information for the upcoming event is under the section with class `upcoming-event-section`. Copy the name of the image file with the logo (only the name, not the whole path), the name of the event, date and link, and paste them in a new entry in the `pastBigEvents.yml` file, at the top of the file. 
+
+For the description, create a new html file with the name of the event in the `pastBigEvents` folder under `_includes`. Paste the description there inside a paragraph tag. Put the name of the html file with the description in the desc section of the new entry in `pastBigEvents.yml`.
+
+If the information for the new upcoming event is ready, replace the information of the old event with the new (place the logo of the new event under `/assets/images/logos/`). Else, leave the information of the old event and comment out that whole section, until it can be updated.
 
 ### Sponsors
 
