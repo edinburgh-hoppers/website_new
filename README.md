@@ -70,9 +70,9 @@ To keep the website up to date, the information under the \_data folder must be 
 
 ### Team members
 
-Go to `team.yml` under the `_data` folder. This file contains all the infromation from the committee mebers that is displayed in the [teams page](https://edinburghhoppers.com/teams).
+Open `team.yml` under the `_data` folder. This file contains all the information about the committee members that is displayed in the [teams page](https://edinburghhoppers.com/teams).
 
-
+Add a new entry or replace one member's information with the other's (in case of replacement). Place the picture of the new member under `/assets/images/team/` and name the file with just the first name of the new member.
 
 
 ### Big events
