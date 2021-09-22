@@ -10,9 +10,6 @@
   - [Teams members](#team-members)
   - [Big events](#big-events)
   - [Sponsors](#sponsors)
-  - [Sponsorships](#sponsorships)
-  - [Testimonies](#testimonies)
-  - [Constitution](#constitution)
   
 
 
@@ -94,15 +91,3 @@ Open `sponsors.yml`, located under the `_data` folder. This file contains all th
 For a new sponsors, add a new entry to the file and place the logo (png format, transparent background, preferably vertical design) under `/assets/images/sponsor-logos/`.
 
 When a company stops sponsoring us, don't delete their entry, just comment it out, in case they sponsors us again the future.
-
-### Sponsorships
-
-**Proposal**:
-
-**Tier prices**:
-
-**Sponsorship perks**:
-
-### Testimonies
-
-### Constitution
