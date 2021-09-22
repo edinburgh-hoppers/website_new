@@ -7,7 +7,7 @@
 - [File structure](#file-structure)
 - [Format](#format)
 - [Editing data](#editing-data)
-  - [Teams members](#team-members)
+  - [Team members](#team-members)
   - [Big events](#big-events)
   - [Sponsors](#sponsors)
   
