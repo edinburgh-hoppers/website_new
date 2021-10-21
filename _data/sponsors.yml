@@ -38,6 +38,14 @@
   logo: thoughtmachine.png
   website: https://thoughtmachine.net/
 
+- name: Bloomberg
+  logo: bloomberg.png
+  website: https://www.bloomberg.com/
+
+- name: BlackRock
+  logo: blackrock.png
+  website: https://www.blackrock.com/
+
 # - name: Amazon
 #   logo: amazon.png
 #   website: https://www.amazon.com
