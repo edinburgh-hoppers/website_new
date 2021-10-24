@@ -42,9 +42,9 @@
   logo: bloomberg.png
   website: https://www.bloomberg.com/
 
-- name: BlackRock
-  logo: blackrock.png
-  website: https://www.blackrock.com/
+# - name: BlackRock
+#   logo: blackrock.png
+#   website: https://www.blackrock.com/
 
 # - name: Amazon
 #   logo: amazon.png
