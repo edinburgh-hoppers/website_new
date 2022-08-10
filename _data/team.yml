@@ -1,77 +1,41 @@
-- name: Sraddheya Gurung
+- name: Sara Khatun Guluzade
   role: President
-  year: Year 3, Computer Science
-  link: sraddheya.jpeg
-  linkedin: https://www.linkedin.com/in/sraddheya-gurung-0351b4203/
+  year: Year 2, Artificial Intelligence and Computer Science
+  link: placeholderPic.jpg
+  linkedin: https://www.linkedin.com/in/sara-khatun-guluzade-458225238/
 
-- name: Priya Sadh
+ 
+- name: Vinita Rawani
   role: Secretary
-  year: Year 4, Artificial Intelligence and Computer Science
-  link: priya.jpg
-  linkedin: https://www.linkedin.com/in/priyasadh/
+  year: Year 2, Artificial Intelligence and Computer Science
+  link: placeholderPic.jpg
+  linkedin: https://www.linkedin.com/in/vinita-r-5923521b2/
 
-- name: Regan Hwang
-  role: Treasurer
-  year: Year 3, Mathematics
-  link: regan.jpg
-  linkedin: 
 
-- name: Aparna Rajeev
+- name: Tomris Guluzade
+  role: Treasurer and Nominated Risk Assessor
+  year: Year 4, Law and Economics
+  link: placeholderPic.jpg
+  linkedin: https://www.linkedin.com/in/tomris-guluzade-242677192/
+
+- name: Purvi Harwani
   role: Head of Tech
-  year: Year 4, Artificial Intelligence and Software Engineering
-  link: aparna.jpg
-  linkedin: https://www.linkedin.com/in/aparna-rajeev/
+  year: Year 3, Artificial Intelligence and Computer Science
+  link: placeholderPic.jpg
+  linkedin:
 
-- name: Sarah Kayser
-  role: Head of Media
-  year: Year 4, Artificial Intelligence and Software Engineering
-  link: sarah.jpg
-  linkedin: https://www.linkedin.com/in/sarah-kayser/
-
-- name: Ioana Buzduga
+ 
+- name: Paulina Gerchuk
   role: Head of Sponsorship
-  year: 
-  link: ioana.jpeg
+  year: Year 2, Artificial Intelligence and Computer Science
+  link: placeholderPic.jpg
+  linkedin:
+
+
+- name: Julie Hong
+  role: Head of Media and Marketing
+  year: Year 2, Computer Science
+  link: placeholderPic.jpg
   linkedin: 
 
-- name: Trinity Gulland
-  role: Head of Socials
-  year: Year 2, Artificial Intelligence
-  link: trinity.jpg
-  linkedin: 
 
-- name: Laura O'Sullivan
-  role: Tech Coordinator
-  year: Year 2, Computer Science and Mathematics
-  link: laura_o.jpeg
-  linkedin: https://www.linkedin.com/in/laura-o-sullivan-cork/
-
-- name: Jahnvi Jaiman
-  role: Tech Coordinator
-  year: Year 3, Computer Science
-  link: jahnvi.jpeg
-  linkedin: 
-
-- name: Wendy Mak
-  role: Tech Coordinator
-  year: Year 4, Data Science - Technology and Innovation
-  link: wendy.jpg
-  linkedin: https://www.linkedin.com/in/wwymak
-
-- name: Prapti Maitra
-  role: Media Coordinator
-  year: Year 3, Computer Science and Mathematics
-  link: prapti.jpg
-  linkedin: https://www.linkedin.com/in/prapti-maitra-0673b7193
-
-- name: Laura Ritter
-  role: Media Coordinator
-  year: 
-  link: laura_r.jpeg
-  linkedin: 
-
-- name: Shruti Chandran A
-  role: Website Coordinator
-  year: Year 1, MSc. Computer Science
-  link: shruti.jpg
-  linkedin: https://www.linkedin.com/in/shrutichandran95/
