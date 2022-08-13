@@ -1,6 +1,18 @@
 # more recent events are to be added at the top
 
-- name: WomenEmpowerED
+- name: WomenEmpowerED 2022
+  date: March 2022
+  logo: we-21-logo-hands-2.png
+  desc: womenempowered22.html
+  link: https://womenempowered.space/
+
+- name: Ada Hack 2021
+  date: October 2021
+  logo: ADA-HACK-2021-logo-2.png
+  desc: adahack21.html
+  link: https://www.adahack.tech/
+
+- name: WomenEmpowerED 2021
   date: March 2021
   logo: we-21-logo-hands-2.png
   desc: womenempowered21.html
