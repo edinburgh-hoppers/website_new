@@ -17,25 +17,25 @@ layout: default
 		
 		<div class="highlighted d-flex flex-column flex-lg-row">
 			<div class="upcoming-event-desc">
-				<h3>Welcome Week Events</h3>
-				<!---<p><b>Name of event:</b>  Coffee shop crawl with Hoppers! <br> --->
+				<h3>Welcome Week Events</h3> <br>
+				
 				<h4>Coffee shop crawl with Hoppers!</h4>
-					<b>Description of event:</b> Join the adventurous "Hoppers" coffee shop crawl to explore 
+					<p><b>Description of event:</b> Join the adventurous "Hoppers" coffee shop crawl to explore 
 					the best cafe spots of Edi for studying or chilling with friends! Don't miss the chance 
 					to learn more about Hoppers, and get the tips/advice on studying at UOE.<br>
 					<b>Date:</b> 15/09/2022<br>
 					<b>Meeting Point:</b> Teviot Row House </p>
 				
-				<p><b>Name of event:</b>  PG Hoppers Edinburgh bus tour!  <br>
-					<b>Description of event:</b> Join Hoppers Bus Tour to visit the main sightseeing places of 
+				<h4>PG Hoppers Edinburgh bus tour!</h4>
+					<p><b>Description of event:</b> Join Hoppers Bus Tour to visit the main sightseeing places of 
 					Edinburgh with an exclusive deal of 50% discount on original ticket prices! Learn more about Hoppers while 
 					diving into the historical atmosphere with a live tour guide!<br>
 					<b>Date:</b> 16/09/2022<br>
 					<b>Meeting Point:</b> Waverly Train Station (entrance that comes out to Princess Street)<br>
 					<b>Location:</b> Edinburgh Bus Tour Hub - North Side of St.Andrew Square </p>
 				
-				<p><b>Name of event:</b>  Picnic at Meadows with Hoppers!  <br>
-					<b>Description of event:</b> Join "Hoppers" Picnic at Meadows, one of the best parks in Edi, to enjoy free pizza, 
+				<h4>Picnic at Meadows with Hoppers!</h4>
+					<p><b>Description of event:</b> Join "Hoppers" Picnic at Meadows, one of the best parks in Edi, to enjoy free pizza, 
 					dessert, drinks, an entertaining Bingo Game, and a quiz! Have your game face on to win great prizes! <br>
 					<b>Meeting Point:</b> Main Library<br>
 					<b>Location:</b> Meadows Park Dog-Free zone (opposite to the tennis court)  </p>
@@ -121,10 +121,14 @@ layout: default
 					{% if event.desc %}
 					{% include pastBigEvents/{{event.desc}} %}
 					{% endif %}
+					{% if event.link %}
+					{%
 					<div class="col-12 center-horizentally">
 						<a class="col-12 col-md-5 col-lg-6 button clickable" href="{{ event.link }}" target="_blank">Go to the
 							website</a>
 					</div>
+					%}
+					{% endif %}
 				</div>
 			</div>
 			{% endfor %}
