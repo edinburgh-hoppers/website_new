@@ -10,46 +10,46 @@
   logo: HubSpot.png
   website: https://www.hubspot.com/
 
-- name: NatWest
-  logo: natwest1.png
-  website: https://personal.natwest.com/
+#- name: NatWest
+#  logo: natwest1.png
+#  website: https://personal.natwest.com/
 
-- name: Optiver
-  logo: optiver.png
-  website: https://www.optiver.com/
+#- name: Optiver
+#  logo: optiver.png
+#  website: https://www.optiver.com/
 
 - name: Stripe
   logo: stripe.png
   website: https://stripe.com/
 
-- name: Cisco
-  logo: cisco.png
-  website: https://www.cisco.com/
+#- name: Cisco
+#  logo: cisco.png
+#  website: https://www.cisco.com/
 
-- name: American Express
-  logo: amex.png
-  website: https://www.hubspot.com/#
+#- name: American Express
+#  logo: amex.png
+#  website: https://www.hubspot.com/#
 
 - name: SmartSheet
   logo: smartsheet.png
   website: https://www.hubspot.com/
 
-- name: ThoughtMachine
-  logo: thoughtmachine.png
-  website: https://thoughtmachine.net/
+#- name: ThoughtMachine
+#  logo: thoughtmachine.png
+#  website: https://thoughtmachine.net/
 
 - name: Bloomberg
   logo: bloomberg.png
   website: https://www.bloomberg.com/
 
-  name: Palantir
+-  name: Palantir
   logo: palantir.png
   website: https://www.palantir.com/uk/
 
-  name: Accenture
+-  name: Accenture
   logo: accenture.png
   website: https://www.accenture.com/gb-en
-  
+
 # - name: BlackRock
 #   logo: blackrock.png
 #   website: https://www.blackrock.com/
