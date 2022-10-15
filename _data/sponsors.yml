@@ -42,11 +42,11 @@
   logo: bloomberg.png
   website: https://www.bloomberg.com/
 
--  name: Palantir
+- name: Palantir
   logo: palantir.png
   website: https://www.palantir.com/uk/
 
--  name: Accenture
+- name: Accenture
   logo: accenture.png
   website: https://www.accenture.com/gb-en
 
