@@ -54,6 +54,14 @@
   logo: marshall-wace.png
   website: https://www.mwam.com/
 
+- name: Aleois
+  logo: aleois.png
+  website: https://www.aleios.com/
+
+- name: Skyscanner
+  logo: skyscanner.png
+  website: https://www.skyscanner.net/
+
 # - name: BlackRock
 #   logo: blackrock.png
 #   website: https://www.blackrock.com/
