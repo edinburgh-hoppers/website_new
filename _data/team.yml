@@ -22,7 +22,7 @@
 
 - name: Purvi Harwani
   role: Head of Tech
-  year: Year 3, BEng Computer Science
+  year: Year 3, Computer Science
   link: purvi-harwani.jpg
   pronouns: She/Her
   linkedin: https://www.linkedin.com/in/purvi-harwani-63ba84187
@@ -50,6 +50,13 @@
   pronouns: She/Her
   linkedin: https://www.linkedin.com/in/e-allen
 
+- name: Dorna Hamed Barghi
+  role: Head of Flagship Events
+  year: Year 2, Computer Science and Maths
+  link: dorna-hamed-barghi.jpg
+  pronouns: She/Her
+  linkedin: https://www.linkedin.com/in/dorna-hamed-barghi-12844319a/
+
 - name: Mabel Wylie
   role: Web Developer
   year: Year 3, Data Science
@@ -63,6 +70,13 @@
   link: maksims-galkins.jpg
   pronouns: They/Them
   linkedin: https://www.linkedin.com/in/maksims-galkins-82aa9b186/
+
+- name: Radhea Permata Dewi
+  role: Postgraduate Representative
+  year: MSc Finance, Technology and Policy
+  link: radhea-permata-dewi.jpeg
+  pronouns: She/Her
+  linkedin: https://www.linkedin.com/in/radheadewi/
 
 - name: Douglas Torrance
   role: Sponsorship Coordinator
@@ -113,10 +127,16 @@
   pronouns: She/Her
   linkedin: https://www.linkedin.com/in/wietske-holwerda-a730781a9/
 
-- name: Wing Tang
-  role: Media Coordinator
-  year: Year 2, Physics
-  link: wing-tang.jpg
-  pronouns: He/Him
-  linkedin:
-  
+- name: Amishi Gangwar
+  role: Media and Marketing Coordinator
+  year: Year 2, Artificial Intelligence and Computer Science
+  link: amishi-gangwar.jpg
+  pronouns: She/Her
+  linkedin: https://www.linkedin.com/in/amishi-gangwar/
+
+- name: Aagoon Chakraborty
+  role: Flagship Events Coordinator
+  year: Year 1, Artificial Intelligence and Computer Science
+  link: aagoon-chakraborty.jpeg
+  pronouns: She/Her
+  linkedin: https://www.linkedin.com/in/aagoon-chakraborty/
