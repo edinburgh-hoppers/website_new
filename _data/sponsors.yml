@@ -8,7 +8,7 @@
 
 - name: Hubspot
   logo: HubSpot.png
-  website: https://www.smartsheet.com/customers-home
+  website: https://www.hubspot.com/
 
 #- name: NatWest
 #  logo: natwest1.png
@@ -28,11 +28,11 @@
 
 #- name: American Express
 #  logo: amex.png
-#  website: https://www.hubspot.com/#
+#  website: 
 
 - name: SmartSheet
   logo: smartsheet.png
-  website: https://www.hubspot.com/
+  website: https://www.smartsheet.com/customers-home
 
 #- name: ThoughtMachine
 #  logo: thoughtmachine.png
