@@ -17,15 +17,15 @@ layout: default
 
     <div class="member-wrapper">
         {% for member in team %}
-        <div class="member-card" style="background-image: url({{site.baseurl}}/assets/images/team/{{ member.link}})">
+        <div class="member-card" style="background-image: url({{site.baseurl}}/assets/images/team/{{ member.link }})">
             {% if member.linkedin %}
             <a href="{{ member.linkedin }}" target="_blank">
                 {% endif %}
                 <div class="overlay">
                     <h4>{{ member.name }}</h4>
-                    <h5>{{ member.pronouns }}</h5>
+                    {% if member.pronouns %} <h5>{{ member.pronouns }}</h5> {% endif %}
                     <h5>{{ member.role }}</h5>
-                    <h6>{{ member.year }}</h6>
+                    {% if member.year %} <h6>{{ member.year }}</h6> {% endif %}
                 </div>
                 {% if member.linkedin %}
             </a>
