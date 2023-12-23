@@ -1,14 +1,13 @@
 ---
 layout: default
 ---
+
 {% assign team = site.data.team %}
-
-
 <div class="team">
-    
     <section class="title-section">
         <h1>Meet the team</h1>
-        <p>We all come from different parts of the world, growing up with different cultures, languages, upbringing
+        <p>
+            We all come from different parts of the world, growing up with different cultures, languages, upbringing
             and education. But what connects us all is our shared desire to celebrate this very diversity within the
             School of Informatics. We want to encourage and support women and all other gender minorities to take pride
             who they are, and help them explore their creativity and innovative ideas.
@@ -17,15 +16,15 @@ layout: default
 
     <div class="member-wrapper">
         {% for member in team %}
-        <div class="member-card" style="background-image: url({{site.baseurl}}/assets/images/team/{{ member.link}})">
+        <div class="member-card" style="background-image: url({{ site.baseurl }}/assets/images/team/{{ member.link }})">
             {% if member.linkedin %}
             <a href="{{ member.linkedin }}" target="_blank">
                 {% endif %}
                 <div class="overlay">
                     <h4>{{ member.name }}</h4>
-                    <h5>{{ member.pronouns }}</h5>
+                    {% if member.pronouns %} <h5>{{ member.pronouns }}</h5> {% endif %}
                     <h5>{{ member.role }}</h5>
-                    <h6>{{ member.year }}</h6>
+                    {% if member.year %} <h6>{{ member.year }}</h6> {% endif %}
                 </div>
                 {% if member.linkedin %}
             </a>

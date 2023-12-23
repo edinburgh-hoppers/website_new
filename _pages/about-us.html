@@ -1,59 +1,42 @@
 ---
 layout: default
 ---
+
 <div class="page">
-  <section class="title-section">
-    <h1>About Us</h1>
-    <!-- <div class="title-right"> -->
-    <p>As the official society for Gender Minorities in Informatics at the University of Edinburgh, our goal is to
-      cultivate an open community with the aim to provide a supportive and inclusive society where people are
-      comfortable and can build both technical and networking skills to thrive in the tech environment.
-    </p>
-    <p>We differ from other societies at the University of Edinburgh in that every woman, transgender and non-binary
-       person studying or working at the School of Informatics is automatically considered as part of Hoppers
-        community, and since from this year Hoppers society became one of EUSA societies, people showing
-         interest in our society need to obtain free Hoppers membership tickets through the link below
-         to verify their membership from technical side.<br>
+    <section class="title-section">
+        <h1>About Us</h1>
+        <p>
+            As the official society for Gender Minorities in Informatics at the University of Edinburgh, our goal is to
+            cultivate an open community with the aim to provide a supportive and inclusive society where people are
+            comfortable and can build both technical and networking skills to thrive in the tech environment.
+        </p>
+        <p>
+            We differ from other societies at the University of Edinburgh in that every woman, transgender and non-binary
+            person studying or working at the School of Informatics is automatically considered as part of Hoppers
+            community. Since Hoppers became one of the EUSA societies, people showing interest in us can obtain free Hoppers
+            membership tickets through the link below to verify their membership from the technical side.
+            <br>
+            <a class="col-12 col-md-5 col-lg-4 button clickable" href="https://www.eusa.ed.ac.uk/activities/view/hoppersgdi" target="_blank">Our EUSA page</a>
+            <br>
+            <a class="col-12 col-md-5 col-lg-4 button clickable" href="{{ 'assets/pdf/Hoppers-Constitution-Apr-2023.pdf' | relative_url }}" target="_blank">Download our Constitution</a>
+            <br>
+            <a class="col-12 col-md-5 col-lg-4 button clickable" href="https://www.eusa.ed.ac.uk/shop?activity_id=499" target="_blank">Get your free membership</a>
+        </p>
+    </section>
 
-      <a class="col-12 col-md-5 col-lg-4 button clickable" 
-         href="https://www.eusa.ed.ac.uk/shop?activity_id=499"
-         target="_blank">Get your free membership </a>
-      
-         <br>     
-
-      <a class="col-12 col-md-5 col-lg-4 button clickable"
-        href="{{ 'assets/pdf/Hoppers-Constitution-Nov-22.pdf' | relative_url }}" target="_blank">Download our
-        Constitution</a>
-      </p>
-  </section>
-
-
-  {%- for voice in site.data.aboutUs -%}
-  <section class="aboutUsVoices" id="{{voice.tag}}-section">
-    <div class="float-left col-12 col-lg-4 col-xl-3 d-flex flex-column mb-3 mb-lg-2">
-      <div class="col-6 col-md-4 col-lg-8 mx-auto">
-        <img class="w-100 d-block rounded-circle mb-2" src="
-          {%- if voice.img -%}
-            {{ '/assets/images/aboutUsVoices/' | append: voice.img | relative_url }}
-          {%- endif -%}" alt="Photo of {{ voice.name }}">
-      </div>
-
-      <span style="font-weight: bold" class="text-center">
-        <h6 class="team-member">{{ voice.name }}, {{ voice.year }}</h6>
-        <h6 class="team-member-role">{{ voice.description }}</h6>
-      </span>
-    </div>
-
-    {% include aboutUsVoices/{{ voice.includeTextFrom }} %}
-
-  </section>
-
-  <hr class="mb-4 mt-4">
-  {%- endfor -%}
-
-  <!-- <div class="col-12 center-horizentally">
-    <a class="col-12 col-md-5 col-lg-4 button clickable"
-      href="{{ 'assets/pdf/constitution-hoppers.pdf' | relative_url }}" target="_blank">Download our Constitution</a>
-  </div> -->
-
+    {%- for voice in site.data.aboutUs -%}
+    <section class="aboutUsVoices" id="{{ voice.tag }}-section">
+        <div class="float-left col-12 col-lg-4 col-xl-3 d-flex flex-column mb-3 mb-lg-2">
+            <div class="col-6 col-md-4 col-lg-8 mx-auto">
+                <img class="w-100 d-block rounded-circle mb-2" src="{%- if voice.img -%} {{ '/assets/images/aboutUsVoices/' | append: voice.img | relative_url }} {%- endif -%}" alt="Photo of {{ voice.name }}">
+            </div>
+            <span style="font-weight: bold" class="text-center">
+                <h6 class="team-member">{{ voice.name }}, {{ voice.year }}</h6>
+                <h6 class="team-member-role">{{ voice.description }}</h6>
+            </span>
+        </div>
+        {% include aboutUsVoices/{{ voice.includeTextFrom }} %}
+    </section>
+    <hr class="mb-4 mt-4">
+    {%- endfor -%}
 </div>
