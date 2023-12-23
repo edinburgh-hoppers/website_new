@@ -1,71 +1,75 @@
+- name: Bloomberg
+  logo: bloomberg.png
+  website: https://www.bloomberg.com
+
 - name: Google
   logo: google.png
   website: https://www.google.com
 
-- name: School of Informatics
-  logo: inf.png
-  website: https://www.ed.ac.uk/informatics
+- name: Optiver
+  logo: optiver.png
+  website: https://www.optiver.com
 
-- name: Hubspot
-  logo: HubSpot.png
-  website: https://www.hubspot.com/
-
-#- name: NatWest
-#  logo: natwest1.png
-#  website: https://personal.natwest.com/
-
-#- name: Optiver
-#  logo: optiver.png
-#  website: https://www.optiver.com/
-
-- name: Stripe
-  logo: stripe.png
-  website: https://stripe.com/
-
-#- name: Cisco
-#  logo: cisco.png
-#  website: https://www.cisco.com/
-
-#- name: American Express
-#  logo: amex.png
-#  website: 
-
-- name: SmartSheet
-  logo: smartsheet.png
-  website: https://www.smartsheet.com/customers-home
-
-#- name: ThoughtMachine
-#  logo: thoughtmachine.png
-#  website: https://thoughtmachine.net/
-
-- name: Bloomberg
-  logo: bloomberg.png
-  website: https://www.bloomberg.com/
-
-#- name: Palantir
-#  logo: palantir.png
-#  website: https://www.palantir.com/uk/
-
-- name: Accenture
-  logo: accenture.png
-  website: https://www.accenture.com/gb-en
-
-- name: Marshall Wace
-  logo: marshall-wace.png
-  website: https://www.mwam.com/
-
-- name: Aleios
-  logo: aleois.png
-  website: https://www.aleios.com/
+- name: Palantir
+  logo: palantir.png
+  website: https://www.palantir.com/uk
 
 - name: Skyscanner
   logo: skyscanner.png
   website: https://www.skyscanner.net/jobs/earlycareers
 
-# - name: BlackRock
-#   logo: blackrock.png
-#   website: https://www.blackrock.com/
+- name: SmartSheet
+  logo: smartsheet.png
+  website: https://www.smartsheet.com/customers-home
 
-# - name: Amazon
-#   logo: amazon.png
-#   website: https://www.amazon.com
+- name: Stripe
+  logo: stripe.png
+  website: https://stripe.com
+
+#- name: Cisco
+#  logo: cisco.png
+#  website: https://www.cisco.com
+
+#- name: Scott Logic
+#  logo: scott-logic.png
+#  website: https://www.scottlogic.com
+
+#- name: School of Informatics
+#  logo: inf.png
+#  website: https://www.ed.ac.uk/informatics
+
+#- name: Hubspot
+#  logo: HubSpot.png
+#  website: https://www.hubspot.com
+
+#- name: NatWest
+#  logo: natwest1.png
+#  website: https://personal.natwest.com
+
+#- name: American Express
+#  logo: amex.png
+#  website: https://www.americanexpress.com
+
+#- name: BlackRock
+#  logo: blackrock.png
+#  website: https://www.blackrock.com
+
+#- name: Amazon
+#  logo: amazon.png
+#  website: https://www.amazon.com
+
+#- name: ThoughtMachine
+#  logo: thoughtmachine.png
+#  website: https://thoughtmachine.net
+
+#- name: Marshall Wace
+#  logo: marshall-wace.png
+#  website: https://www.mwam.com
+
+#- name: Accenture
+#  logo: accenture.png
+#  website: https://www.accenture.com/gb-en
+
+#- name: Aleios
+#  logo: aleois.png
+#  website: https://www.aleios.com
