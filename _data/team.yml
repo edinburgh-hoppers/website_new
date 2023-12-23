@@ -5,7 +5,6 @@
   pronouns: She/Her
   linkedin: https://www.linkedin.com/in/shreeya-varma/
 
-
 - name: Mabel Wan Xuan Ng
   role: Secretary
   year: Year 2, Artificial Intelligence and Computer Science
@@ -13,22 +12,19 @@
   pronouns: She/Her
   linkedin: https://www.linkedin.com/in/mabelwxng/
 
-
 - name: Sophia Sun
   role: Treasurer
-  year: 
+  year:
   link: sophia-sun.jpg
-  pronouns: 
-  linkedin: 
-
+  pronouns:
+  linkedin:
 
 - name: Kate McHugh
   role: Head of Socials
-  year: 
+  year:
   link: default-2.png
-  pronouns: 
-  linkedin: 
-
+  pronouns:
+  linkedin:
 
 - name: Shivangi Kamat
   role: Head of Media
@@ -37,7 +33,6 @@
   pronouns: She/Her
   linkedin: https://www.linkedin.com/in/shivangi-kamat-5a8727218/
 
-
 - name: Kashvi Chabbra
   role: Head of Tech
   year: Year 2, Computer Science
@@ -45,22 +40,19 @@
   pronouns: She/Her
   linkedin: https://www.linkedin.com/in/kashvi-chabbra/
 
-
 - name: Rhea Bose
   role: Tech Coorinator
   year: Year 1, Computer Science and Mathematics
   link: default-3.png
-  pronouns: 
-  linkedin: 
-
+  pronouns:
+  linkedin:
 
 - name: Yamini Sundarka
   role: Postgraduate Representative
   year: MSc Computer Science
   link: yamini-sundarka.jpg
-  pronouns: 
-  linkedin: 
-
+  pronouns:
+  linkedin:
 
 - name: Haofei Chen
   role: Web Developer
