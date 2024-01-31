@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;1,300&display=swap");
+
 /* GENERAL PROPERTIES */
 html { scroll-behavior: smooth; }
 
@@ -313,5 +314,3 @@ _________________________________________________________________
 .tiers .empty-cell { background: none; background-color: rgba(0, 0, 0, 0); }
 
 .tiers a { margin: 10px; }
-
-/*# sourceMappingURL=styles.css.map */
