@@ -1,62 +1,42 @@
-- name: Shreeya Varma
-  role: President
-  year: Year 2, Artificial Intelligence and Computer Science
-  link: shreeya-varma.jpg
-  pronouns: She/Her
-  linkedin: https://www.linkedin.com/in/shreeya-varma/
-
-- name: Mabel Wan Xuan Ng
-  role: Secretary
-  year: Year 2, Artificial Intelligence and Computer Science
-  link: default-1.png
-  pronouns: She/Her
-  linkedin: https://www.linkedin.com/in/mabelwxng/
-
-- name: Sophia Sun
-  role: Treasurer
-  year:
-  link: sophia-sun.jpg
-  pronouns:
-  linkedin:
+# - name: Shreeya Varma
+#   role: President
+#   year: Year 2, Artificial Intelligence and Computer Science
+#   link: shreeya-varma.jpg
+#   pronouns: She/Her
+#   linkedin: https://www.linkedin.com/in/shreeya-varma/
 
 - name: Kate McHugh
-  role: Head of Socials
-  year:
-  link: default-2.png
-  pronouns:
-  linkedin:
-
-- name: Shivangi Kamat
-  role: Head of Media
-  year: Year 1, Computer Science
-  link: shivangi-kamat.jpg
-  pronouns: She/Her
-  linkedin: https://www.linkedin.com/in/shivangi-kamat-5a8727218/
-
-- name: Kashvi Chabbra
-  role: Head of Tech
+  role: President
   year: Year 2, Computer Science
-  link: kashvi-chabbra.jpg
+  link: kate-mchugh.jpg
   pronouns: She/Her
-  linkedin: https://www.linkedin.com/in/kashvi-chabbra/
-
-- name: Rhea Bose
-  role: Tech Coorinator
-  year: Year 1, Computer Science and Mathematics
-  link: default-3.png
-  pronouns:
   linkedin:
 
-- name: Yamini Sundarka
-  role: Postgraduate Representative
-  year: MSc Computer Science
-  link: yamini-sundarka.jpg
-  pronouns:
+- name: Alice Graham
+  role: Secretary
+  year: Year 2, Computer Science
+  link: alice-graham.jpg
+  pronouns: She/Her
   linkedin:
 
-- name: Haofei Chen
-  role: Web Developer
-  year: Year 3, Artificial Intelligence and Computer Science
-  link: default-4.png
-  pronouns: They/Them
-  linkedin: https://www.linkedin.com/in/haofei-chen/
+  - name: Keira Crafts
+  role: Treasurer
+  year: Year 2, Computer Science
+  link: keira.crafts.jpg
+  pronouns: She/Her
+  linkedin:
+
+  - name: Helen Gold
+  role: Head of Marketing
+  year: Year 2, Computer Science
+  link: helen-gold.jpg
+  pronouns: She/Her
+  linkedin:
+
+  - name: Sorana Ionescu
+  role: Head of Tech Events
+  year: Year 2, Computer Science
+  link: sorana-ionescu.jpg
+  pronouns: She/Her
+  linkedin:
+
