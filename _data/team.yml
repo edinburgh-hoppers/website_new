@@ -13,23 +13,23 @@
   linkedin:
 
 - name: Keira Crafts
-role: Treasurer
-year: Year 2, Computer Science
-link: keira.crafts.jpg
-pronouns: She/Her
-linkedin:
+  role: Treasurer
+  year: Year 2, Computer Science
+  link: keira.crafts.jpg
+  pronouns: She/Her
+  linkedin:
 
 - name: Helen Gold
-role: Head of Marketing
-year: Year 2, Computer Science
-link: helen-gold.jpg
-pronouns: She/Her
-linkedin:
+  role: Head of Marketing
+  year: Year 2, Computer Science
+  link: helen-gold.jpg
+  pronouns: She/Her
+  linkedin:
 
 - name: Sorana Ionescu
-role: Head of Tech Events
-year: Year 2, Cognitive Science
-link: sorana-ionescu.jpg
-pronouns: She/Her
-linkedin:
+  role: Head of Tech Events
+  year: Year 2, Cognitive Science
+  link: sorana-ionescu.jpg
+  pronouns: She/Her
+  linkedin:
 
