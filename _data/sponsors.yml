@@ -1,30 +1,40 @@
-- name: Bloomberg
-  logo: bloomberg.png
-  website: https://www.bloomberg.com
-
-- name: Google
-  logo: google.png
-  website: https://www.google.com
+- name: Skyscanner
+  logo: skyscanner.png
+  website: https://www.skyscanner.net/jobs/earlycareers
 
 - name: Optiver
   logo: optiver.png
   website: https://www.optiver.com
 
-- name: Palantir
-  logo: palantir.png
-  website: https://www.palantir.com/uk
+- name: BlackRock
+ logo: blackrock.png
+ website: https://www.blackrock.com
 
-- name: Skyscanner
-  logo: skyscanner.png
-  website: https://www.skyscanner.net/jobs/earlycareers
+- name: Jane Street
+  logo: jane-street.png
+  website: https://www.janestreet.com
 
-- name: SmartSheet
-  logo: smartsheet.png
-  website: https://www.smartsheet.com/customers-home
 
-- name: Stripe
-  logo: stripe.png
-  website: https://stripe.com
+
+# - name: Bloomberg
+#   logo: bloomberg.png
+#   website: https://www.bloomberg.com
+
+# - name: Google
+#   logo: google.png
+#   website: https://www.google.com
+
+# - name: Palantir
+#   logo: palantir.png
+#   website: https://www.palantir.com/uk
+
+# - name: SmartSheet
+#   logo: smartsheet.png
+#   website: https://www.smartsheet.com/customers-home
+
+# - name: Stripe
+#   logo: stripe.png
+#   website: https://stripe.com
 
 #- name: Cisco
 #  logo: cisco.png
@@ -49,10 +59,6 @@
 #- name: American Express
 #  logo: amex.png
 #  website: https://www.americanexpress.com
-
-#- name: BlackRock
-#  logo: blackrock.png
-#  website: https://www.blackrock.com
 
 #- name: Amazon
 #  logo: amazon.png
