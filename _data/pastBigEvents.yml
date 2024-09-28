@@ -1,5 +1,17 @@
 # more recent events are to be added at the top
 
+- name: International Women's Day 2024
+  date: March 2024
+  logo: IWD-logo.png
+  desc: iwd22.html
+  link: https://adahack.net/
+
+  - name: Ada Hack '23
+  date: February 2024
+  logo: ADA-HACK-2023-logo.png
+  desc: adahack23.html
+  link: https://adahack.edinburghhoppers.com/
+
 - name: Ada Hack 2022
   date: October 2022
   logo: ADA-HACK-2022-logo.png
