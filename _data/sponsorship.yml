@@ -3,17 +3,12 @@
   silver: y
   bronze: y
 
-- name: General support with planning and organisation
+- name: General support with planning
   gold: y
   silver: y
   bronze: y
 
 - name: Logo on our website
-  gold: y
-  silver: y
-  bronze: y
-
-- name: Career opportunities advertised
   gold: y
   silver: y
   bronze: y
@@ -28,17 +23,18 @@
   silver: y
   bronze:
 
-- name: Gold sponsor for the International Women's Day event
+- name: Gold sponsor for our International Women's Day event
   gold: y
   silver: y
-  bronze:
-
-- name: Access to member communications
-  gold: y
-  silver:
   bronze:
 
 - name: Guaranteed opportunity for workshops
   gold: y
   silver:
   bronze:
+
+- name: Events and opportunities advertised on our bi-weekly newsletter
+  gold: y
+  silver:
+  bronze:
+
