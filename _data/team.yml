@@ -36,5 +36,13 @@
 - name: Kathryn Taylor
   role: First Year Representative
   year: Year 1, Informatics
-  pronouns: She/her
+  link: default-1.png
+  pronouns: She/Her
+  linkedin:
+
+- name: Bessie Russell
+  role: Head of Socials
+  year: Year 1, Computer Science
+  link: default-2.png
+  pronouns: She/Her
   linkedin:
