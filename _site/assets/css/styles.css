@@ -224,6 +224,10 @@ _________________________________________________________________
 Support Page
 _________________________________________________________________
 */
+.support {
+  border: 5px solid red;
+}
+
 .support { display: grid; justify-content: center; width: 90vw; grid-template-rows: max-content max-content; grid-template-areas: 'title' '.'; }
 
 .support .title { grid-area: title; display: grid; grid-template-columns: 1fr 2fr; padding-bottom: 10px; }
