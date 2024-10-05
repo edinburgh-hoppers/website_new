@@ -13,17 +13,18 @@ layout: default
 
     <div class="support-page">
         {% for org in support %}
-        <div class="org-card" style="background-image: url({{ site.baseurl }}/assets/images/support-logos/{{ org.logo }})">
+        <div class="org-card">
             {% if org.website %}
             <a href="{{ org.website }}" target="_blank">
-                {% endif %}
+            {% endif %}
+                <img src="{{ site.baseurl }}/assets/images/support-logos/{{ org.logo }}" alt="{{ org.name }} logo">
                 <div class="overlay">
                     <h4>{{ org.name }}</h4>
                     {% if org.pronouns %} <h5>{{ org.pronouns }}</h5> {% endif %}
                     <h5>{{ org.role }}</h5>
                     {% if org.year %} <h6>{{ org.year }}</h6> {% endif %}
                 </div>
-                {% if org.website %}
+            {% if org.website %}
             </a>
             {% endif %}
         </div>
