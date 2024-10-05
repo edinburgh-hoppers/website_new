@@ -2,20 +2,19 @@
 layout: default
 ---
 
-{% assign team = site.data.team %}
+{% assign support = site.data.support %}
 <div class="team">
     <section class="title-section">
-        <h1>Meet the team</h1>
+        <h1>Page Coming Soon!</h1>
         <p>
-            We're closely knit team, united by our passion for creating an inclusive and safe 
-            environment for informatics students at the Univeristy of Edinburgh. 
+            Meet our sister societies & learn about where to get support at the University of Edinburgh
         </p>
     </section>
 
-    <div class="member-wrapper">
-        {% for member in team %}
-        <div class="member-card" style="background-image: url({{ site.baseurl }}/assets/images/team/{{ member.link }})">
-            {% if member.linkedin %}
+    <div class="support-page">
+        {% for org in support %}
+        <div class="org-card" style="background-image: url({{ site.baseurl }}/assets/images/support-logos/{{ org.logo }})">
+            <!-- {% if member.linkedin %}
             <a href="{{ member.linkedin }}" target="_blank">
                 {% endif %}
                 <div class="overlay">
@@ -26,7 +25,7 @@ layout: default
                 </div>
                 {% if member.linkedin %}
             </a>
-            {% endif %}
+            {% endif %} -->
         </div>
         {% endfor %}
     </div>

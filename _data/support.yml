@@ -1,0 +1,12 @@
+
+- name: CompSoc
+  type: Society
+  website: https://comp-soc.com/
+  eusa: https://www.eusa.ed.ac.uk/activities/view/compsoc
+  logo: compsoc.png
+
+- name: InfPals
+  type: society
+  website: https://infpals.github.io/
+  eusa: https://www.eusa.ed.ac.uk/activities/view/infpals
+  logo: inf-pals.png
