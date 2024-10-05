@@ -1,6 +1,6 @@
 
 - name: CompSoc
-  type: Society
+  type: society
   website: https://comp-soc.com/
   eusa: https://www.eusa.ed.ac.uk/activities/view/compsoc
   logo: compsoc.png
@@ -10,3 +10,13 @@
   website: https://infpals.github.io/
   eusa: https://www.eusa.ed.ac.uk/activities/view/infpals
   logo: inf-pals.png
+
+- name: University Support
+  type: other
+  website: https://www.ed.ac.uk/students/new-students/online-students/student-support
+  logo: edinburgh-university.png
+
+- name: Hoppers Wellbeing Form
+  type: other
+  website: https://forms.gle/ZmoScQ4doLKVwNDy5
+  logo: wellbeing-form.png
