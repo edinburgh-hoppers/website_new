@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+{% assign team = site.data.team %}
+<div class="team">
+    <section class="title-section">
+        <h1>Meet the team</h1>
+        <p>
+            We're closely knit team, united by our passion for creating an inclusive and safe 
+            environment for informatics students at the Univeristy of Edinburgh. 
+        </p>
+    </section>
+
+    <div class="member-wrapper">
+        {% for member in team %}
+        <div class="member-card" style="background-image: url({{ site.baseurl }}/assets/images/team/{{ member.link }})">
+            {% if member.linkedin %}
+            <a href="{{ member.linkedin }}" target="_blank">
+                {% endif %}
+                <div class="overlay">
+                    <h4>{{ member.name }}</h4>
+                    {% if member.pronouns %} <h5>{{ member.pronouns }}</h5> {% endif %}
+                    <h5>{{ member.role }}</h5>
+                    {% if member.year %} <h6>{{ member.year }}</h6> {% endif %}
+                </div>
+                {% if member.linkedin %}
+            </a>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+</div>
