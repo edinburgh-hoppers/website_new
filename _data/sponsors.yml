@@ -14,6 +14,14 @@
   logo: jane-street.png
   website: https://www.janestreet.com
 
+- name: G Research
+  logo: g-research.svg
+  website: https://www.gresearch.com/ 
+
+- name: People's Postcode Lottery
+  logo: peoples-postcode-lottery.png
+  website: https://www.postcodelottery.co.uk/
+
 
 
 # - name: Bloomberg
