@@ -1,48 +1,69 @@
-- name: Kate McHugh
+- name: Bessie Russell
   role: President
-  year: Year 3, Computer Science
-  link: kate-mchugh.jpg
+  year: Year 2, Computer Science
+  link: bessie-russell.jpeg
   pronouns: She/Her
-  linkedin: https://www.linkedin.com/in/kate-mchugh-33ab44230/
-  
-- name: Alice Graham
-  role: Secretary
-  year: Year 3, Computer Science
-  link: alice-graham.jpg
-  pronouns: She/Her
-  linkedin: https://www.linkedin.com/in/alice-graham-03040018a/
-
-- name: Keira Crafts
-  role: Treasurer
-  year: Year 3, Computer Science
-  link: keira-crafts.jpg
-  pronouns: She/Her
-  linkedin: https://www.linkedin.com/in/keiracrafts/
-
-- name: Helen Gold
-  role: Head of Media & Marketing
-  year: Year 3, Computer Science
-  link: helen-gold.jpg
-  pronouns: She/Her
-  linkedin: https://www.linkedin.com/in/helen-g-5121b51b3/
-
-- name: Sorana Ionescu
-  role: Head of Tech Events
-  year: Year 3, Cognitive Science
-  link: sorana-ionescu.jpg
-  pronouns: She/Her
-  linkedin: https://www.linkedin.com/in/sorana-ionescu-2ab9b5329/
+  linkedin:
 
 - name: Kathryn Taylor
-  role: First Year Representative
-  year: Year 1, Informatics
+  role: Secretary
+  year: Year 2, Computer Science
   link: kathryn-taylor.jpeg
   pronouns: She/Her
   linkedin:
 
-- name: Bessie Russell
-  role: Head of Socials
-  year: Year 1, Computer Science
-  link: bessie-russell.jpeg
+- name: Tracey Olushina
+  role: Treasurer
+  year: Year 2, Computer Science
+  link:
+  pronouns: She/Her
+  linkedin: https://www.linkedin.com/in/tracey-olushina-3a5974347/
+
+- name: Ann Achato
+  role: Head of Sponsorship
+  year: Year 2, Computer Science
+  link:
+  pronouns: She/Her
+  linkedin: https://www.linkedin.com/in/ann-achato-41605027a/
+
+- name: Saskia
+  role: Head of Flagship
+  year: Year 2, Computer Science
+  link:
   pronouns: She/Her
   linkedin:
+
+- name: Karina Asanbekova
+  role: Head of Tech
+  year: Year 2, Computer Science and AI
+  link:
+  pronouns: She/Her
+  linkedin: https://www.linkedin.com/in/kasanbekova/
+
+- name: Eileen Garip
+  role: Web Developer
+  year: Year 2, Computer Science and Maths
+  link:
+  pronouns: She/Her
+  linkedin:
+
+- name: Hoi Man Ng
+  role: EDI Officer
+  year: Year 2, Computer Science
+  link:
+  pronouns: She/Her
+  linkedin: https://www.linkedin.com/in/hoi-man-ng/
+
+- name: Anna Claire
+  role: Head of Socials
+  year: Year 2, Computer Science
+  link:
+  pronouns: She/Her
+  linkedin: https://www.linkedin.com/in/anna-claire-breuss-burgess-461a79345/
+
+- name: Charlie Chambers
+  role: Head of Media and Marketing
+  year: Year 2, Computer Science
+  link:
+  pronouns: She/Her
+  linkedin: https://www.linkedin.com/in/charlotte-chambers-1a1923373/
