@@ -6,10 +6,6 @@
   logo: optiver.png
   website: https://www.optiver.com
 
-- name: BlackRock
-  logo: aladdin-blackrock.png
-  website: https://www.blackrock.com/aladdin
-
 - name: Jane Street
   logo: jane-street.png
   website: https://www.janestreet.com
@@ -87,3 +83,7 @@
 #- name: Aleios
 #  logo: aleois.png
 #  website: https://www.aleios.com
+
+#- name: BlackRock
+#  logo: aladdin-blackrock.png
+#  website: https://www.blackrock.com/aladdin
