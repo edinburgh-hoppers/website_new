@@ -33,13 +33,6 @@
   pronouns: She/Her
   linkedin:
 
-- name: Karina Asanbekova
-  role: Head of Tech
-  year: Year 2, Computer Science and AI
-  link: karina-asanbekova.jpeg
-  pronouns: She/Her
-  linkedin: https://www.linkedin.com/in/kasanbekova/
-
 - name: Eileen Garip
   role: Web Developer
   year: Year 2, Computer Science and Maths
@@ -67,3 +60,10 @@
   link: charlie-chambers.jpg
   pronouns: She/Her
   linkedin: https://www.linkedin.com/in/charlotte-chambers-1a1923373/
+
+- name: Karina Asanbekova
+  role: Head of Tech
+  year: Year 2, Computer Science and AI
+  link: karina-asanbekova.jpeg
+  pronouns: She/Her
+  linkedin: https://www.linkedin.com/in/kasanbekova/
