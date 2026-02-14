@@ -1,13 +1,13 @@
-- name: Jane Hillston
+- name: Helen Hastie
   description: Head of School of Informatics
-  year: "2020"
-  includeTextFrom: jane.html
-  img: jane.jpg
-  tag: jane
+  year: "2025/26"
+  includeTextFrom: helen.html
+  img: helen.jpg
+  tag: helen
 
 - name: Bessie Russell
-  description: Hoppers President 2025/26
-  year: "2026"
+  description: Hoppers President
+  year: "2025/26"
   includeTextFrom: bessie.html
   img: bessie-russell.jpg
   tag: 
