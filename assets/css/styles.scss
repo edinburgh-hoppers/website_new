@@ -1074,3 +1074,91 @@ _________________________________________________________________
         margin: 10px;
     }
 }
+
+/* =====================================================
+   SAFE VISUAL ELEVATION LAYER
+   (Does NOT change layout structure)
+   ===================================================== */
+
+/* Improve rendering smoothness */
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+/* Slightly improve heading hierarchy */
+h1 {
+    letter-spacing: -0.5px;
+}
+
+h2 {
+    letter-spacing: -0.3px;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    letter-spacing: -0.2px;
+}
+
+/* Improve paragraph readability */
+p {
+    line-height: 1.6;
+}
+
+/* Refine buttons slightly */
+.button {
+    transition: all 0.25s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Soften card depth */
+.member-card,
+.org-card,
+.event-type-card,
+.pbe-card {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.member-card:hover,
+.org-card:hover,
+.event-type-card:hover,
+.pbe-card:hover {
+    transform: translateY(-3px);
+}
+
+/* Improve section breathing room */
+.home-section {
+    margin: 12% 10%;
+}
+
+/* Slightly elevate upcoming event */
+.events-page .upcoming-event-section .highlighted {
+    box-shadow: 0 10px 30px rgba(16, 152, 100, 0.15);
+}
+
+/* Subtle table refinement */
+.tiers table {
+    border-collapse: separate;
+    border-spacing: 0 6px;
+}
+
+.tiers tbody tr {
+    border-radius: 10px;
+}
+
+/* Improve sponsor hover smoothness */
+.sponsor-image-wrapper {
+    transition: transform 0.3s ease;
+}
+
+/* Slight polish to overlay animation */
+.team .member-card:hover .overlay,
+.support .org-card:hover .overlay {
+    transition: top 0.35s ease;
+}
+
