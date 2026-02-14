@@ -315,20 +315,19 @@ _________________________________________________________________
     }
 }
 
-/*
------------------------------------------------------
-HERO SECTION & HOME PAGE INTERACTIVITY
------------------------------------------------------
-*/
-
+/*  HERO SECTION  */
 #hero-section {
     display: flex;
     width: 100%;
     height: 80vh;
     margin: 0;
     margin-bottom: 5%;
-    position: relative;
-    overflow: hidden; // ensures blur doesn't spill out
+}
+
+@media screen and (max-width:700px) {
+    #hero-section {
+        margin: 10% 0;
+    }
 }
 
 .content {
@@ -337,83 +336,74 @@ HERO SECTION & HOME PAGE INTERACTIVITY
     margin: 0 10%;
     align-items: center;
     justify-content: center;
-    position: relative;
 
-    img.home-image {
+    img {
         width: 100%;
-        max-width: 550px;
         height: auto;
+        max-width: 550px;
         padding: 0;
         margin: 0 40px;
-        transition: filter 0.3s ease-out, opacity 0.3s ease-out, transform 0.3s ease-out;
-        filter: blur(4px);
-        opacity: 0.6;
     }
 
-    .home-text {
-        margin: 0 20px;
-        font-size: 1.8rem;
-        font-weight: 600;
-        line-height: 1.4;
-        color: $hoppers-green;
-        text-align: left;
-        filter: blur(8px);
-        opacity: 0.5;
-        transform: translateY(20px);
-        transition: filter 0.3s ease-out, opacity 0.3s ease-out, transform 0.3s ease-out;
-    }
-
-    /* optional container to help mobile stacking */
     .intro {
+        margin: 0 20px;
+
         p {
             max-width: 50ch;
         }
     }
 }
 
-/* SCROLL FOCUS CLASSES (for JS toggling if needed) */
-.home-text.focused {
-    filter: blur(0);
-    opacity: 1;
-    transform: translateY(0);
+#particles-js {
+    height: 100vh; // change later when nav bar is added
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
 }
 
-.home-image.focused {
-    filter: blur(0);
-    opacity: 1;
-}
-
-/* RESPONSIVE */
-@media screen and (max-width: 1200px) {
-    .content img.home-image {
+@media screen and (max-width:1200px) {
+    .content img {
         max-width: 400px;
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width:1000px) {
+    .home-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
     .content {
         flex-direction: column;
         text-align: center;
+    }
+
+    .home-image-wrapper {
+        margin: 15px 0;
+    }
+
+    .home-text {
+        margin: 15px 0;
+    }
+
+    .reverse-mobile {
+        .home-image-wrapper {
+            order: 1;
+        }
+
+        .home-gap {
+            order: 2;
+        }
 
         .home-text {
-            margin: 15px 0;
-        }
-
-        img.home-image {
-            margin: 15px 0;
+            order: 3;
         }
     }
 }
 
-@media screen and (max-width: 600px) {
-    .home-text {
-        font-size: 1.4rem;
-    }
-
-    img.home-image {
-        max-width: 250px;
-    }
-}
+/*
 
 
 /*
