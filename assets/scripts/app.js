@@ -25,6 +25,52 @@ $(document).ready(() => {
     });
 })
 
+// HERO SCROLL INTERACTIVITY
+const heroText = document.querySelector('.home-text');
+const heroImage = document.querySelector('.home-image');
+
+function updateHeroScroll() {
+    const scrollY = window.scrollY;
+    const maxTextBlur = 8;       // px
+    const maxTextTranslate = 20; // px
+    const maxImageBlur = 4;      // px
+    const maxScroll = 300;       // px scroll distance for full focus
+
+    if (heroText) {
+        const textBlur = Math.max(0, maxTextBlur - (scrollY / maxScroll) * maxTextBlur);
+        const textOpacity = Math.min(1, 0.5 + (scrollY / maxScroll) * 0.5);
+        const textTranslate = Math.max(0, maxTextTranslate - (scrollY / maxScroll) * maxTextTranslate);
+
+        heroText.style.filter = `blur(${textBlur}px)`;
+        heroText.style.opacity = textOpacity;
+        heroText.style.transform = `translateY(${textTranslate}px)`;
+    }
+
+    if (heroImage) {
+        const imageBlur = Math.max(0, maxImageBlur - (scrollY / maxScroll) * maxImageBlur);
+        const imageOpacity = Math.min(1, 0.6 + (scrollY / maxScroll) * 0.4);
+
+        heroImage.style.filter = `blur(${imageBlur}px)`;
+        heroImage.style.opacity = imageOpacity;
+    }
+}
+
+// Use requestAnimationFrame for smooth performance
+let ticking = false;
+
+window.addEventListener('scroll', () => {
+    if (!ticking) {
+        window.requestAnimationFrame(() => {
+            updateHeroScroll();
+            ticking = false;
+        });
+        ticking = true;
+    }
+});
+
+// Initialize on load in case user refreshes mid-scroll
+window.addEventListener('load', updateHeroScroll);
+
 //function openNav() {
 //    console.log(window.innerWidth)
 //    if (window.innerWidth > 500) {
