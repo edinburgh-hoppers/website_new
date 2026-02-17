@@ -240,7 +240,7 @@ _________________________________________________________________
 
 .events-page .upcoming-event-section .highlighted .upcoming-event-logo img { width: 260px; height: auto; }
 
-.events-page .upcoming-event-section .highlighted .upcoming-event-desc { margin: 2%; text-align: start; }
+.events-page .upcoming-event-section .highlighted .upcoming-event-desc { margin: 2%; text-align: center; }
 
 @media screen and (max-width: 992px) { .events-page .upcoming-event-section .highlighted { padding-top: 30px; } .events-page .upcoming-event-section .highlighted .upcoming-event-logo img { width: 200px; margin-bottom: 10px; } .events-page .upcoming-event-section .highlighted .upcoming-event-desc { text-align: center; } }
 
