@@ -1,85 +1,76 @@
-- name: Bessie Russell
-  role: President
-  year: Year 2, Computer Science
-  link: bessie-russell.jpg
-  pronouns: She/Her
-  linkedin:
-
-- name: Kathryn Taylor
-  role: Secretary
-  year: Year 2, Computer Science
-  link: kathryn-taylor.jpg
-  pronouns: She/Her
-  linkedin:
-
 - name: Tracey Olushina
-  role: Treasurer
-  year: Year 2, Computer Science
+  role: President
+  year: Year 3, Computer Science
   link: tracey-olushina.jpg
   pronouns: She/Her
   linkedin: https://www.linkedin.com/in/tracey-olushina-3a5974347/
 
-- name: Ann Achato
-  role: Head of Sponsorship
-  year: Year 2, Computer Science
-  link: ann-achato.jpg
+- name: Elin Zhang
+  role: First Year Rep
+  year: Year 2, Computer Science and AI
+  link: elin-zhang.jpg
   pronouns: She/Her
-  linkedin: https://www.linkedin.com/in/ann-achato-41605027a/
+  linkedin: https://www.linkedin.com/in/elin-zhang-1b08772a7/
 
 - name: Saskia Whittingham
-  role: Head of Flagship
-  year: Year 2, Computer Science
+  role: Treasurer
+  year: Year 3, Computer Science
   link: saskia.jpg
   pronouns: She/Her
   linkedin:
 
 - name: Eileen Garip
-  role: Web Developer
-  year: Year 2, Computer Science and Maths
+  role: Head of Sponsorship
+  year: Year 3, Computer Science and Maths
   link: eileen-garip.jpg
   pronouns: She/Her
   linkedin: https://www.linkedin.com/in/eileen-garip-89ab89297/
 
 - name: Hoi Man Ng
-  role: EDI Officer
-  year: Year 2, Computer Science
+  role: Head of Flagship
+  year: Year 3, Computer Science
   link: hoi-man.jpg
   pronouns: She/Her
   linkedin: https://www.linkedin.com/in/hoi-man-ng/
 
-- name: Anna Claire Breuss-Burgess
-  role: Head of Socials
-  year: Year 2, Computer Science
-  link: anna-claire.jpg
-  pronouns: She/Her
-  linkedin: https://www.linkedin.com/in/anna-claire-breuss-burgess-461a79345/
-
-- name: Charlie Chambers
-  role: Head of Media and Marketing
-  year: Year 2, Computer Science
-  link: charlie-chambers.jpg
-  pronouns: She/Her
-  linkedin: https://www.linkedin.com/in/charlotte-chambers-1a1923373/
-
-- name: Elin Zhang
-  role: First Year Rep
-  year: Year 1, Computer Science and AI
-  link: elin-zhang.jpg
-  pronouns: She/Her
-  linkedin: https://www.linkedin.com/in/elin-zhang-1b08772a7/
-
 - name: Skye Vasquez
-  role: Head of Tech
-  year: Year 1, MInf Informatics
-  link: skye-vasquez.jpg
-  pronouns: They/ Them
+  role: Web Developer
+  year: Year 2, MInf Informatics
+  link:
+  pronouns: They/Them
   linkedin: https://www.linkedin.com/in/skye-vasquez-315431398/
 
-- name: Lekshmi Priya Saravanan
-  role: Postgraduate Rep
+- name: Olivia Bird
+  role: EDI Officer
   year: 
-  link:
-  pronouns: She/Her
-  linkedin:
-  
+  link: 
+  pronouns: 
+  linkedin: 
 
+- name: Ridhima Mattha
+  role: Head of Socials
+  year: 
+  link: 
+  pronouns: 
+  linkedin: 
+
+- name: Holly Pickering
+  role: 
+  year: 
+  link: 
+  pronouns: 
+  linkedin: 
+
+#- name: Elin Zhang
+#  role: First Year Rep
+#  year: Year 1, Computer Science and AI
+#  link: elin-zhang.jpg
+#  pronouns: She/Her
+#  linkedin: https://www.linkedin.com/in/elin-zhang-1b08772a7/
+
+- name: Ann Achato
+  role: Head of Tech
+  year: Year 3, Computer Science
+  link: ann-achato.jpg
+  pronouns: She/Her
+  linkedin: https://www.linkedin.com/in/ann-achato-41605027a/
