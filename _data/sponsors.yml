@@ -1,6 +1,6 @@
-- name: Skyscanner
-  logo: skyscanner.png
-  website: https://www.skyscanner.net/jobs/earlycareers
+#- name: Skyscanner
+#  logo: skyscanner.png
+#  website: https://www.skyscanner.net/jobs/earlycareers
 
 - name: Optiver
   logo: optiver.png
